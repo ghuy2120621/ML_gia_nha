@@ -1,0 +1,1095 @@
+feature,coefficient,abs_coefficient
+categorical__district_name_Củ Chi,-1.2516153387428435,1.2516153387428435
+categorical__province_name_Hà Nội,1.2298198986562143,1.2298198986562143
+categorical__province_name_Hồ Chí Minh,0.9459212621421985,0.9459212621421985
+categorical__district_name_1,0.9404530126526123,0.9404530126526123
+categorical__district_name_Bình Chánh,-0.8797159244295857,0.8797159244295857
+categorical__ward_name_infrequent_sklearn,-0.8180913294351628,0.8180913294351628
+categorical__province_name_Đà Nẵng,0.7307655085005939,0.7307655085005939
+categorical__district_name_Hoàn Kiếm,0.6897898638739488,0.6897898638739488
+categorical__district_name_Hóc Môn,-0.6764837931767534,0.6764837931767534
+categorical__district_name_Nha Trang,0.6508586605229439,0.6508586605229439
+categorical__district_name_Vũng Tàu,0.5308287435261089,0.5308287435261089
+categorical__district_name_3,0.5026071503293448,0.5026071503293448
+categorical__ward_name_Thảo Điền,0.502561548204184,0.502561548204184
+numeric__area,0.46208348532546584,0.46208348532546584
+categorical__district_name_Cầu Giấy,0.4331630696034861,0.4331630696034861
+categorical__district_name_10,0.4150366074755492,0.4150366074755492
+categorical__district_name_Tây Hồ,0.39065833305574177,0.39065833305574177
+categorical__district_name_Sơn Trà,0.3888098398387513,0.3888098398387513
+categorical__ward_name_An Phú,0.3871652574575893,0.3871652574575893
+categorical__district_name_Đà Lạt,0.36957202184198196,0.36957202184198196
+categorical__district_name_Hoài Đức,-0.350448943890527,0.350448943890527
+categorical__district_name_12,-0.34990435459074054,0.34990435459074054
+categorical__district_name_5,0.3432732740467216,0.3432732740467216
+categorical__province_name_Long An,-0.33763488007821624,0.33763488007821624
+categorical__ward_name_Mỹ An,0.33556502063439597,0.33556502063439597
+categorical__district_name_Ba Đình,0.33044175502413853,0.33044175502413853
+categorical__district_name_Phú Nhuận,0.3063993977440086,0.3063993977440086
+categorical__district_name_Đống Đa,0.2977278452569093,0.2977278452569093
+categorical__ward_name_Võ Thị Sáu,0.293384933424251,0.293384933424251
+categorical__district_name_Nhà Bè,-0.2924650317351971,0.2924650317351971
+categorical__district_name_Chương Mỹ,-0.2766408244811081,0.2766408244811081
+categorical__district_name_Thanh Xuân,0.2563074185607747,0.2563074185607747
+categorical__district_name_Dĩ An,0.21782693085450017,0.21782693085450017
+categorical__district_name_Bình Tân,-0.21118351403019422,0.21118351403019422
+categorical__district_name_Tân Bình,0.21019555923100305,0.21019555923100305
+categorical__house_direction_Tây Bắc,0.2065711757382741,0.2065711757382741
+categorical__house_direction_Tây Nam,0.20551018390076528,0.20551018390076528
+categorical__house_direction_Đông Bắc,0.19740296155259457,0.19740296155259457
+categorical__district_name_Bình Thạnh,0.19554039239458498,0.19554039239458498
+categorical__province_name_Hải Phòng,0.1863086756637846,0.1863086756637846
+categorical__district_name_Thanh Trì,-0.18299880095299612,0.18299880095299612
+categorical__district_name_Hai Bà Trưng,0.1813775974470458,0.1813775974470458
+categorical__district_name_Ngũ Hành Sơn,0.179146022287116,0.179146022287116
+categorical__balcony_direction_Đông Nam,0.17403040207420453,0.17403040207420453
+categorical__balcony_direction_Đông Bắc,0.16968404194937006,0.16968404194937006
+categorical__ward_name_Bến Thành,0.16483973043556965,0.16483973043556965
+categorical__province_name_Đồng Nai,-0.16055798556034703,0.16055798556034703
+categorical__ward_name_An Khánh,0.15922380662890676,0.15922380662890676
+categorical__ward_name_Quảng An,0.1589271558237372,0.1589271558237372
+categorical__house_direction_Bắc,0.15873634421549912,0.15873634421549912
+categorical__balcony_direction_Tây Bắc,0.1575711974879342,0.1575711974879342
+categorical__balcony_direction_Đông,0.1554996113141437,0.1554996113141437
+categorical__house_direction_Đông Nam,0.1457993290848259,0.1457993290848259
+categorical__balcony_direction_Tây - Bắc,0.14458508549416976,0.14458508549416976
+categorical__house_direction_Tây,0.1408232661268942,0.1408232661268942
+categorical__house_direction_Nam,0.14027190912726786,0.14027190912726786
+categorical__ward_name_2,0.13956558509478978,0.13956558509478978
+categorical__balcony_direction_Bắc,0.13148010524867806,0.13148010524867806
+categorical__balcony_direction_Tây,0.12261825072691525,0.12261825072691525
+categorical__balcony_direction_Tây Nam,0.12045618669241623,0.12045618669241623
+categorical__balcony_direction_Tây - Nam,0.11739812649725283,0.11739812649725283
+categorical__province_name_Lâm Đồng,-0.11612775461845568,0.11612775461845568
+categorical__balcony_direction_Đông - Bắc,0.11242678568023937,0.11242678568023937
+numeric__bedroom_count,0.11155478398080104,0.11155478398080104
+numeric__floor_count,0.10988627824832811,0.10988627824832811
+categorical__ward_name_25,0.10963603817459437,0.10963603817459437
+categorical__house_direction_Đông,0.10825701711330699,0.10825701711330699
+categorical__balcony_direction_Nam,0.10078311853484734,0.10078311853484734
+categorical__district_name_Thủ Đức,-0.09861934102414217,0.09861934102414217
+categorical__district_name_Lê Chân,0.09614703392588467,0.09614703392588467
+categorical__ward_name_Lộc Thọ,0.08877733760175634,0.08877733760175634
+categorical__ward_name_Trung Hòa,0.08760038963155545,0.08760038963155545
+categorical__ward_name_Linh Xuân,-0.0823465652619847,0.0823465652619847
+categorical__ward_name_Bồ Đề,0.08126727717140525,0.08126727717140525
+categorical__balcony_direction_Đông - Nam,0.07879556225305363,0.07879556225305363
+categorical__district_name_Hải Châu,0.07658928915426672,0.07658928915426672
+categorical__house_direction_Đông - Nam,0.07478203573022339,0.07478203573022339
+categorical__house_direction_Tây - Nam,0.07325218391750968,0.07325218391750968
+categorical__house_direction_Tây - Bắc,0.07008960933125283,0.07008960933125283
+categorical__district_name_Biên Hòa,0.06913411650098522,0.06913411650098522
+categorical__house_direction_Đông - Bắc,0.06383245811606326,0.06383245811606326
+categorical__ward_name_15,-0.06346324227435658,0.06346324227435658
+numeric__road_width,0.058730247980438986,0.058730247980438986
+categorical__district_name_Ninh Kiều,0.05732886192649464,0.05732886192649464
+categorical__district_name_Long Biên,0.0550828257463352,0.0550828257463352
+numeric__frontage_width,0.05163927197723839,0.05163927197723839
+categorical__province_name_Cần Thơ,-0.051289154481159414,0.051289154481159414
+categorical__ward_name_Ô Chợ Dừa,0.04881705890588344,0.04881705890588344
+numeric__bathroom_count,-0.04636968258477524,0.04636968258477524
+categorical__province_name_Quảng Nam,0.04393337743345443,0.04393337743345443
+categorical__province_name_Tây Ninh,-0.04154909037733955,0.04154909037733955
+categorical__district_name_8,-0.0366610143671508,0.0366610143671508
+categorical__district_name_Nam Từ Liêm,0.03332863163373202,0.03332863163373202
+categorical__district_name_Hội An,0.03099246552115334,0.03099246552115334
+categorical__province_name_Bà Rịa - Vũng Tàu,0.028241314455767014,0.028241314455767014
+categorical__district_name_7,0.026423526471329686,0.026423526471329686
+categorical__ward_name_Khương Mai,0.024571507169509964,0.024571507169509964
+categorical__ward_name_4,0.022322358140099505,0.022322358140099505
+categorical__ward_name_12,-0.01998196983416753,0.01998196983416753
+categorical__province_name_Bình Dương,-0.018640125868974206,0.018640125868974206
+categorical__province_name_Khánh Hòa,0.01814675375674832,0.01814675375674832
+categorical__district_name_Đông Anh,-0.01398570878865835,0.01398570878865835
+categorical__district_name_Liên Chiểu,-0.013390054522540669,0.013390054522540669
+categorical__province_name_Huế,-0.013367129047236933,0.013367129047236933
+categorical__district_name_Hải An,0.009964280308521088,0.009964280308521088
+categorical__district_name_Ngô Quyền,0.008402382453349294,0.008402382453349294
+numeric__months_since_start,0.007070104363728604,0.007070104363728604
+categorical__province_name_Bến Tre,-0.006822629679143645,0.006822629679143645
+numeric__house_depth,-0.0062810426694001305,0.0062810426694001305
+numeric__quarter,-0.0035258334478835036,0.0035258334478835036
+categorical__province_name_Sóc Trăng,-0.0,0.0
+categorical__province_name_Thanh Hóa,0.0,0.0
+categorical__province_name_Thái Bình,-0.0,0.0
+categorical__province_name_Thái Nguyên,-0.0,0.0
+categorical__province_name_Tiền Giang,-0.0,0.0
+categorical__province_name_Trà Vinh,-0.0,0.0
+categorical__province_name_Tuyên Quang,-0.0,0.0
+categorical__province_name_Vĩnh Long,-0.0,0.0
+categorical__province_name_Vĩnh Phúc,0.0,0.0
+categorical__province_name_Yên Bái,-0.0,0.0
+categorical__province_name_Điện Biên,0.0,0.0
+categorical__province_name_Đắk Lắk,-0.0,0.0
+categorical__province_name_Đắk Nông,-0.0,0.0
+categorical__province_name_Đồng Tháp,-0.0,0.0
+categorical__province_name_infrequent_sklearn,-0.0,0.0
+categorical__district_name_11,0.0,0.0
+categorical__district_name_4,-0.0,0.0
+categorical__district_name_6,-0.0,0.0
+categorical__district_name_An Dương,-0.0,0.0
+categorical__district_name_An Lão,0.0,0.0
+categorical__district_name_Ba Vì,-0.0,0.0
+categorical__district_name_Buôn Ma Thuột,-0.0,0.0
+categorical__district_name_Bà Rịa,-0.0,0.0
+categorical__district_name_Bàu Bàng,-0.0,0.0
+categorical__district_name_Bình Minh,-0.0,0.0
+categorical__district_name_Bình Thủy,-0.0,0.0
+categorical__district_name_Bình Xuyên,0.0,0.0
+categorical__district_name_Bạc Liêu,-0.0,0.0
+categorical__district_name_Bảo Lâm,-0.0,0.0
+categorical__district_name_Bảo Lộc,-0.0,0.0
+categorical__district_name_Bắc Giang,0.0,0.0
+categorical__district_name_Bắc Ninh,0.0,0.0
+categorical__district_name_Bắc Tân Uyên,-0.0,0.0
+categorical__district_name_Bắc Từ Liêm,0.0,0.0
+categorical__district_name_Bến Cát,-0.0,0.0
+categorical__district_name_Bến Lức,-0.0,0.0
+categorical__district_name_Bến Tre,-0.0,0.0
+categorical__district_name_Cam Lâm,-0.0,0.0
+categorical__district_name_Cam Ranh,0.0,0.0
+categorical__district_name_Cao Bằng,-0.0,0.0
+categorical__district_name_Cao Lãnh,-0.0,0.0
+categorical__district_name_Châu Thành,-0.0,0.0
+categorical__district_name_Châu Đốc,-0.0,0.0
+categorical__district_name_Châu Đức,-0.0,0.0
+categorical__district_name_Chơn Thành,-0.0,0.0
+categorical__district_name_Chợ Gạo,-0.0,0.0
+categorical__district_name_Cà Mau,-0.0,0.0
+categorical__district_name_Cái Răng,0.0,0.0
+categorical__district_name_Cát Hải,0.0,0.0
+categorical__district_name_Cần Giuộc,-0.0,0.0
+categorical__district_name_Cần Giờ,-0.0,0.0
+categorical__district_name_Cần Đước,-0.0,0.0
+categorical__district_name_Cẩm Lệ,-0.0,0.0
+categorical__district_name_Cẩm Mỹ,-0.0,0.0
+categorical__district_name_Cẩm Phả,0.0,0.0
+categorical__district_name_Di Linh,-0.0,0.0
+categorical__district_name_Diên Khánh,-0.0,0.0
+categorical__district_name_Dương Kinh,-0.0,0.0
+categorical__district_name_Dương Minh Châu,-0.0,0.0
+categorical__district_name_Dầu Tiếng,-0.0,0.0
+categorical__district_name_Gia Lâm,-0.0,0.0
+categorical__district_name_Gia Nghĩa,-0.0,0.0
+categorical__district_name_Giồng Trôm,-0.0,0.0
+categorical__district_name_Gò Công,-0.0,0.0
+categorical__district_name_Gò Công Đông,-0.0,0.0
+categorical__district_name_Gò Dầu,-0.0,0.0
+categorical__district_name_Gò Vấp,-0.0,0.0
+categorical__district_name_Hiệp Hòa,0.0,0.0
+categorical__district_name_Hoàng Mai,0.0,0.0
+categorical__district_name_Hà Giang,-0.0,0.0
+categorical__district_name_Hà Đông,-0.0,0.0
+categorical__district_name_Hàm Thuận Bắc,-0.0,0.0
+categorical__district_name_Hàm Thuận Nam,-0.0,0.0
+categorical__district_name_Hòa Bình,0.0,0.0
+categorical__district_name_Hòa Thành,-0.0,0.0
+categorical__district_name_Hòa Vang,-0.0,0.0
+categorical__district_name_Hưng Yên,0.0,0.0
+categorical__district_name_Hương Thủy,-0.0,0.0
+categorical__district_name_Hạ Long,0.0,0.0
+categorical__district_name_Hải Dương,0.0,0.0
+categorical__district_name_Hồng Bàng,0.0,0.0
+categorical__district_name_Kim Bảng,-0.0,0.0
+categorical__district_name_Kiến An,-0.0,0.0
+categorical__district_name_Kiến Thụy,-0.0,0.0
+categorical__district_name_Kon Tum,-0.0,0.0
+categorical__district_name_La Gi,-0.0,0.0
+categorical__district_name_Lai Châu,-0.0,0.0
+categorical__district_name_Long Hồ,-0.0,0.0
+categorical__district_name_Long Khánh,-0.0,0.0
+categorical__district_name_Long Thành,-0.0,0.0
+categorical__district_name_Long Xuyên,-0.0,0.0
+categorical__district_name_Long Đất,-0.0,0.0
+categorical__district_name_Lào Cai,0.0,0.0
+categorical__district_name_Lâm Hà,-0.0,0.0
+categorical__district_name_Lý Sơn,-0.0,0.0
+categorical__district_name_Lương Sơn,-0.0,0.0
+categorical__district_name_Lạng Sơn,0.0,0.0
+categorical__district_name_Mê Linh,-0.0,0.0
+categorical__district_name_Móng Cái,-0.0,0.0
+categorical__district_name_Mỏ Cày Bắc,-0.0,0.0
+categorical__district_name_Mỹ Hào,0.0,0.0
+categorical__district_name_Mỹ Tho,-0.0,0.0
+categorical__district_name_Mỹ Đức,-0.0,0.0
+categorical__district_name_Nam Định,-0.0,0.0
+categorical__district_name_Nhơn Trạch,-0.0,0.0
+categorical__district_name_Ninh Hòa,-0.0,0.0
+categorical__district_name_Ninh Hải,-0.0,0.0
+categorical__district_name_Phan Rang - Tháp Chàm,-0.0,0.0
+categorical__district_name_Phan Thiết,0.0,0.0
+categorical__district_name_Phú Giáo,-0.0,0.0
+categorical__district_name_Phú Mỹ,-0.0,0.0
+categorical__district_name_Phú Quốc,0.0,0.0
+categorical__district_name_Phú Tân,-0.0,0.0
+categorical__district_name_Phú Xuyên,-0.0,0.0
+categorical__district_name_Phúc Thọ,-0.0,0.0
+categorical__district_name_Phúc Yên,0.0,0.0
+categorical__district_name_Phổ Yên,-0.0,0.0
+categorical__district_name_Phủ Lý,0.0,0.0
+categorical__district_name_Pleiku,-0.0,0.0
+categorical__district_name_Quy Nhơn,0.0,0.0
+categorical__district_name_Quảng Ngãi,-0.0,0.0
+categorical__district_name_Quế Võ,0.0,0.0
+categorical__district_name_Quốc Oai,-0.0,0.0
+categorical__district_name_Rạch Giá,-0.0,0.0
+categorical__district_name_Sa Pa,0.0,0.0
+categorical__district_name_Sa Đéc,-0.0,0.0
+categorical__district_name_Sóc Sơn,-0.0,0.0
+categorical__district_name_Sóc Trăng,-0.0,0.0
+categorical__district_name_Sơn Tây,-0.0,0.0
+categorical__district_name_Sầm Sơn,0.0,0.0
+categorical__district_name_Tam Kỳ,0.0,0.0
+categorical__district_name_Tam Đảo,0.0,0.0
+categorical__district_name_Thanh Hóa,0.0,0.0
+categorical__district_name_Thanh Khê,-0.0,0.0
+categorical__district_name_Thanh Oai,-0.0,0.0
+categorical__district_name_Thuận An,0.0,0.0
+categorical__district_name_Thuận Thành,0.0,0.0
+categorical__district_name_Thái Bình,-0.0,0.0
+categorical__district_name_Thái Nguyên,0.0,0.0
+categorical__district_name_Thường Tín,-0.0,0.0
+categorical__district_name_Thạch Thất,-0.0,0.0
+categorical__district_name_Thống Nhất,-0.0,0.0
+categorical__district_name_Thủ Dầu Một,-0.0,0.0
+categorical__district_name_Thủ Thừa,-0.0,0.0
+categorical__district_name_Thủy Nguyên,-0.0,0.0
+categorical__district_name_Tiên Du,0.0,0.0
+categorical__district_name_Trà Vinh,-0.0,0.0
+categorical__district_name_Trảng Bom,-0.0,0.0
+categorical__district_name_Trảng Bàng,-0.0,0.0
+categorical__district_name_Trần Văn Thời,0.0,0.0
+categorical__district_name_Trần Đề,-0.0,0.0
+categorical__district_name_Tuy Hòa,-0.0,0.0
+categorical__district_name_Tuy Phước,-0.0,0.0
+categorical__district_name_Tân An,0.0,0.0
+categorical__district_name_Tân Châu,-0.0,0.0
+categorical__district_name_Tân Phú,0.0,0.0
+categorical__district_name_Tân Trụ,-0.0,0.0
+categorical__district_name_Tân Uyên,-0.0,0.0
+categorical__district_name_Tây Ninh,-0.0,0.0
+categorical__district_name_Từ Sơn,0.0,0.0
+categorical__district_name_Uông Bí,0.0,0.0
+categorical__district_name_Vinh,0.0,0.0
+categorical__district_name_Việt Trì,0.0,0.0
+categorical__district_name_Việt Yên,0.0,0.0
+categorical__district_name_Văn Giang,0.0,0.0
+categorical__district_name_Văn Lâm,0.0,0.0
+categorical__district_name_Vĩnh Cửu,-0.0,0.0
+categorical__district_name_Vĩnh Long,-0.0,0.0
+categorical__district_name_Vĩnh Lộc,-0.0,0.0
+categorical__district_name_Vĩnh Yên,0.0,0.0
+categorical__district_name_Vũ Thư,-0.0,0.0
+categorical__district_name_Vạn Ninh,-0.0,0.0
+categorical__district_name_Vị Thanh,-0.0,0.0
+categorical__district_name_Xuyên Mộc,-0.0,0.0
+categorical__district_name_Xuân Lộc,-0.0,0.0
+categorical__district_name_Yên Bái,-0.0,0.0
+categorical__district_name_Yên Phong,0.0,0.0
+categorical__district_name_Ô Môn,-0.0,0.0
+categorical__district_name_Đan Phượng,-0.0,0.0
+categorical__district_name_Điện Bàn,-0.0,0.0
+categorical__district_name_Đông Hà,-0.0,0.0
+categorical__district_name_Đông Hòa,-0.0,0.0
+categorical__district_name_Đơn Dương,-0.0,0.0
+categorical__district_name_Định Quán,-0.0,0.0
+categorical__district_name_Đồ Sơn,0.0,0.0
+categorical__district_name_Đồng Hới,0.0,0.0
+categorical__district_name_Đồng Phú,-0.0,0.0
+categorical__district_name_Đồng Xoài,-0.0,0.0
+categorical__district_name_Đức Hòa,-0.0,0.0
+categorical__district_name_Đức Trọng,-0.0,0.0
+categorical__district_name_Ứng Hòa,-0.0,0.0
+categorical__district_name_infrequent_sklearn,-0.0,0.0
+categorical__ward_name_1,0.0,0.0
+categorical__ward_name_10,-0.0,0.0
+categorical__ward_name_11,-0.0,0.0
+categorical__ward_name_13,0.0,0.0
+categorical__ward_name_14,-0.0,0.0
+categorical__ward_name_16,-0.0,0.0
+categorical__ward_name_17,0.0,0.0
+categorical__ward_name_18,-0.0,0.0
+categorical__ward_name_19,0.0,0.0
+categorical__ward_name_22,-0.0,0.0
+categorical__ward_name_26,0.0,0.0
+categorical__ward_name_27,-0.0,0.0
+categorical__ward_name_28,-0.0,0.0
+categorical__ward_name_3,0.0,0.0
+categorical__ward_name_5,0.0,0.0
+categorical__ward_name_6,0.0,0.0
+categorical__ward_name_7,-0.0,0.0
+categorical__ward_name_8,-0.0,0.0
+categorical__ward_name_9,-0.0,0.0
+categorical__ward_name_An Biên,0.0,0.0
+categorical__ward_name_An Bình,0.0,0.0
+categorical__ward_name_An Dương,0.0,0.0
+categorical__ward_name_An Hòa,-0.0,0.0
+categorical__ward_name_An Hải,-0.0,0.0
+categorical__ward_name_An Hải Bắc,0.0,0.0
+categorical__ward_name_An Hải Nam,-0.0,0.0
+categorical__ward_name_An Hội,-0.0,0.0
+categorical__ward_name_An Khê,-0.0,0.0
+categorical__ward_name_An Lạc,-0.0,0.0
+categorical__ward_name_An Lạc A,0.0,0.0
+categorical__ward_name_An Lợi Đông,0.0,0.0
+categorical__ward_name_An Nhơn Tây,-0.0,0.0
+categorical__ward_name_An Phú Tây,-0.0,0.0
+categorical__ward_name_An Phú Đông,-0.0,0.0
+categorical__ward_name_An Phước,-0.0,0.0
+categorical__ward_name_An Sơn,-0.0,0.0
+categorical__ward_name_An Thượng,-0.0,0.0
+categorical__ward_name_An Thạnh,-0.0,0.0
+categorical__ward_name_An Thới,0.0,0.0
+categorical__ward_name_An Tịnh,-0.0,0.0
+categorical__ward_name_An Viễn,-0.0,0.0
+categorical__ward_name_An Điền,-0.0,0.0
+categorical__ward_name_An Đồng,0.0,0.0
+categorical__ward_name_Anh Dũng,-0.0,0.0
+categorical__ward_name_B'lao,-0.0,0.0
+categorical__ward_name_Biên Giang,-0.0,0.0
+categorical__ward_name_Bà Điểm,0.0,0.0
+categorical__ward_name_Bàu Năng,-0.0,0.0
+categorical__ward_name_Bàu Trâm,-0.0,0.0
+categorical__ward_name_Bách Khoa,0.0,0.0
+categorical__ward_name_Bát Tràng,-0.0,0.0
+categorical__ward_name_Bãi Cháy,0.0,0.0
+categorical__ward_name_Bình An,0.0,0.0
+categorical__ward_name_Bình Chiểu,-0.0,0.0
+categorical__ward_name_Bình Chuẩn,0.0,0.0
+categorical__ward_name_Bình Chánh,-0.0,0.0
+categorical__ward_name_Bình Hòa,0.0,0.0
+categorical__ward_name_Bình Hưng,0.0,0.0
+categorical__ward_name_Bình Hưng Hòa,-0.0,0.0
+categorical__ward_name_Bình Hưng Hòa A,-0.0,0.0
+categorical__ward_name_Bình Hưng Hòa B,-0.0,0.0
+categorical__ward_name_Bình Khánh,-0.0,0.0
+categorical__ward_name_Bình Lộc,-0.0,0.0
+categorical__ward_name_Bình Lợi,-0.0,0.0
+categorical__ward_name_Bình Minh,-0.0,0.0
+categorical__ward_name_Bình Mỹ,-0.0,0.0
+categorical__ward_name_Bình Nhâm,-0.0,0.0
+categorical__ward_name_Bình Phú,-0.0,0.0
+categorical__ward_name_Bình Thuận,0.0,0.0
+categorical__ward_name_Bình Thắng,-0.0,0.0
+categorical__ward_name_Bình Thọ,0.0,0.0
+categorical__ward_name_Bình Thủy,-0.0,0.0
+categorical__ward_name_Bình Trưng Tây,0.0,0.0
+categorical__ward_name_Bình Trưng Đông,0.0,0.0
+categorical__ward_name_Bình Trị Đông,-0.0,0.0
+categorical__ward_name_Bình Trị Đông A,-0.0,0.0
+categorical__ward_name_Bình Trị Đông B,0.0,0.0
+categorical__ward_name_Bình Tân,-0.0,0.0
+categorical__ward_name_Bình Yên,-0.0,0.0
+categorical__ward_name_Bình Đa,0.0,0.0
+categorical__ward_name_Bích Hòa,-0.0,0.0
+categorical__ward_name_Bưởi,0.0,0.0
+categorical__ward_name_Bạch Mai,-0.0,0.0
+categorical__ward_name_Bạch Đằng,0.0,0.0
+categorical__ward_name_Bảo Vinh,-0.0,0.0
+categorical__ward_name_Bần Yên Nhân,0.0,0.0
+categorical__ward_name_Bắc Cường,0.0,0.0
+categorical__ward_name_Bắc Hồng,-0.0,0.0
+categorical__ward_name_Bắc Sơn,-0.0,0.0
+categorical__ward_name_Bến Lức,-0.0,0.0
+categorical__ward_name_Bến Nghé,0.0,0.0
+categorical__ward_name_Bồ Xuyên,-0.0,0.0
+categorical__ward_name_Bửu Hòa,0.0,0.0
+categorical__ward_name_Bửu Long,-0.0,0.0
+categorical__ward_name_Cao Thắng,0.0,0.0
+categorical__ward_name_Cao Viên,-0.0,0.0
+categorical__ward_name_Cao Xanh,0.0,0.0
+categorical__ward_name_Chi Đông,-0.0,0.0
+categorical__ward_name_Chánh Mỹ,-0.0,0.0
+categorical__ward_name_Chánh Nghĩa,0.0,0.0
+categorical__ward_name_Chánh Phú Hòa,-0.0,0.0
+categorical__ward_name_Chính Gián,-0.0,0.0
+categorical__ward_name_Chúc Sơn,-0.0,0.0
+categorical__ward_name_Chương Dương,-0.0,0.0
+categorical__ward_name_Cái Khế,0.0,0.0
+categorical__ward_name_Cát Bi,0.0,0.0
+categorical__ward_name_Cát Bà,0.0,0.0
+categorical__ward_name_Cát Linh,0.0,0.0
+categorical__ward_name_Cát Lái,0.0,0.0
+categorical__ward_name_Cát Quế,0.0,0.0
+categorical__ward_name_Cô Giang,0.0,0.0
+categorical__ward_name_Cư ÊBur,-0.0,0.0
+categorical__ward_name_Cần Giuộc,-0.0,0.0
+categorical__ward_name_Cần Thạnh,-0.0,0.0
+categorical__ward_name_Cần Đước,-0.0,0.0
+categorical__ward_name_Cầu Diễn,0.0,0.0
+categorical__ward_name_Cầu Kho,-0.0,0.0
+categorical__ward_name_Cầu Tre,0.0,0.0
+categorical__ward_name_Cầu Ông Lãnh,-0.0,0.0
+categorical__ward_name_Cầu Đất,0.0,0.0
+categorical__ward_name_Cẩm An,0.0,0.0
+categorical__ward_name_Cẩm Châu,0.0,0.0
+categorical__ward_name_Cẩm Hà,-0.0,0.0
+categorical__ward_name_Cẩm Nam,-0.0,0.0
+categorical__ward_name_Cẩm Phô,0.0,0.0
+categorical__ward_name_Cẩm Thanh,-0.0,0.0
+categorical__ward_name_Cốc Lếu,0.0,0.0
+categorical__ward_name_Cống Vị,0.0,0.0
+categorical__ward_name_Cổ Bi,-0.0,0.0
+categorical__ward_name_Cổ Loa,-0.0,0.0
+categorical__ward_name_Cổ Nhuế 1,0.0,0.0
+categorical__ward_name_Cổ Nhuế 2,0.0,0.0
+categorical__ward_name_Củ Chi,-0.0,0.0
+categorical__ward_name_Cửa Nam,0.0,0.0
+categorical__ward_name_Cửa Đông,0.0,0.0
+categorical__ward_name_Cửa Đại,-0.0,0.0
+categorical__ward_name_Cự Khê,-0.0,0.0
+categorical__ward_name_Cự Khối,-0.0,0.0
+categorical__ward_name_Di Trạch,-0.0,0.0
+categorical__ward_name_Diên An,-0.0,0.0
+categorical__ward_name_Diên Khánh,-0.0,0.0
+categorical__ward_name_Diên Lạc,-0.0,0.0
+categorical__ward_name_Diên Phú,-0.0,0.0
+categorical__ward_name_Diên Sơn,-0.0,0.0
+categorical__ward_name_Diên Thạnh,-0.0,0.0
+categorical__ward_name_Diên Toàn,-0.0,0.0
+categorical__ward_name_Diên Điền,-0.0,0.0
+categorical__ward_name_Duyên Thái,-0.0,0.0
+categorical__ward_name_Dĩ An,0.0,0.0
+categorical__ward_name_Dư Hàng Kênh,0.0,0.0
+categorical__ward_name_Dương Nội,-0.0,0.0
+categorical__ward_name_Dương Quan,0.0,0.0
+categorical__ward_name_Dương Xá,-0.0,0.0
+categorical__ward_name_Dương Đông,0.0,0.0
+categorical__ward_name_Dịch Vọng,0.0,0.0
+categorical__ward_name_Dịch Vọng Hậu,0.0,0.0
+categorical__ward_name_Dục Tú,-0.0,0.0
+categorical__ward_name_Ea Kao,-0.0,0.0
+categorical__ward_name_Ea Tam,-0.0,0.0
+categorical__ward_name_Ghềnh Ráng,0.0,0.0
+categorical__ward_name_Gia Lâm,-0.0,0.0
+categorical__ward_name_Gia Thụy,0.0,0.0
+categorical__ward_name_Gia Viên,0.0,0.0
+categorical__ward_name_Giang Biên,-0.0,0.0
+categorical__ward_name_Giang Điền,-0.0,0.0
+categorical__ward_name_Giáp Bát,0.0,0.0
+categorical__ward_name_Giảng Võ,0.0,0.0
+categorical__ward_name_Hiền Ninh,-0.0,0.0
+categorical__ward_name_Hiệp An,-0.0,0.0
+categorical__ward_name_Hiệp Bình Chánh,0.0,0.0
+categorical__ward_name_Hiệp Bình Phước,-0.0,0.0
+categorical__ward_name_Hiệp Hòa,0.0,0.0
+categorical__ward_name_Hiệp Phú,-0.0,0.0
+categorical__ward_name_Hiệp Phước,-0.0,0.0
+categorical__ward_name_Hiệp Thành,-0.0,0.0
+categorical__ward_name_Hiệp Thạnh,-0.0,0.0
+categorical__ward_name_Hiệp Tân,0.0,0.0
+categorical__ward_name_Hoa Động,-0.0,0.0
+categorical__ward_name_Hoàn Sơn,0.0,0.0
+categorical__ward_name_Hoàng Diệu,-0.0,0.0
+categorical__ward_name_Hoàng Liệt,0.0,0.0
+categorical__ward_name_Hoàng Văn Thụ,0.0,0.0
+categorical__ward_name_Hà Cầu,0.0,0.0
+categorical__ward_name_Hà Lầm,-0.0,0.0
+categorical__ward_name_Hàng Buồm,0.0,0.0
+categorical__ward_name_Hàng Bài,0.0,0.0
+categorical__ward_name_Hàng Bông,0.0,0.0
+categorical__ward_name_Hàng Bạc,0.0,0.0
+categorical__ward_name_Hàng Bồ,0.0,0.0
+categorical__ward_name_Hàng Bột,-0.0,0.0
+categorical__ward_name_Hàng Gai,0.0,0.0
+categorical__ward_name_Hàng Kênh,0.0,0.0
+categorical__ward_name_Hàng Mã,0.0,0.0
+categorical__ward_name_Hàng Trống,0.0,0.0
+categorical__ward_name_Hàng Đào,0.0,0.0
+categorical__ward_name_Hòa An,-0.0,0.0
+categorical__ward_name_Hòa Châu,-0.0,0.0
+categorical__ward_name_Hòa Cường Bắc,0.0,0.0
+categorical__ward_name_Hòa Cường Nam,0.0,0.0
+categorical__ward_name_Hòa Hiệp Bắc,-0.0,0.0
+categorical__ward_name_Hòa Hiệp Nam,-0.0,0.0
+categorical__ward_name_Hòa Hải,-0.0,0.0
+categorical__ward_name_Hòa Khánh Bắc,-0.0,0.0
+categorical__ward_name_Hòa Khánh Nam,-0.0,0.0
+categorical__ward_name_Hòa Liên,-0.0,0.0
+categorical__ward_name_Hòa Long,-0.0,0.0
+categorical__ward_name_Hòa Lợi,-0.0,0.0
+categorical__ward_name_Hòa Minh,-0.0,0.0
+categorical__ward_name_Hòa Nghĩa,-0.0,0.0
+categorical__ward_name_Hòa Ninh,-0.0,0.0
+categorical__ward_name_Hòa Phong,-0.0,0.0
+categorical__ward_name_Hòa Phát,-0.0,0.0
+categorical__ward_name_Hòa Phú,-0.0,0.0
+categorical__ward_name_Hòa Phước,-0.0,0.0
+categorical__ward_name_Hòa Quý,-0.0,0.0
+categorical__ward_name_Hòa Sơn,-0.0,0.0
+categorical__ward_name_Hòa Thuận Tây,0.0,0.0
+categorical__ward_name_Hòa Thạnh,-0.0,0.0
+categorical__ward_name_Hòa Thọ Tây,-0.0,0.0
+categorical__ward_name_Hòa Thọ Đông,-0.0,0.0
+categorical__ward_name_Hòa Tiến,-0.0,0.0
+categorical__ward_name_Hòa Xuân,-0.0,0.0
+categorical__ward_name_Hóa An,0.0,0.0
+categorical__ward_name_Hóc Môn,-0.0,0.0
+categorical__ward_name_Hùng Vương,-0.0,0.0
+categorical__ward_name_Hưng Long,-0.0,0.0
+categorical__ward_name_Hưng Lợi,0.0,0.0
+categorical__ward_name_Hưng Phú,0.0,0.0
+categorical__ward_name_Hưng Thạnh,0.0,0.0
+categorical__ward_name_Hưng Đạo,-0.0,0.0
+categorical__ward_name_Hưng Định,-0.0,0.0
+categorical__ward_name_Hương Mạc,-0.0,0.0
+categorical__ward_name_Hạ Đình,0.0,0.0
+categorical__ward_name_Hải Bối,-0.0,0.0
+categorical__ward_name_Hải Châu,-0.0,0.0
+categorical__ward_name_Hải Thành,-0.0,0.0
+categorical__ward_name_Hắc Dịch,-0.0,0.0
+categorical__ward_name_Hố Nai,0.0,0.0
+categorical__ward_name_Hồng Hà,0.0,0.0
+categorical__ward_name_Hồng Hải,0.0,0.0
+categorical__ward_name_Hồng Thái,-0.0,0.0
+categorical__ward_name_Hồng Vân,-0.0,0.0
+categorical__ward_name_Hội Nghĩa,-0.0,0.0
+categorical__ward_name_Hữu Bằng,-0.0,0.0
+categorical__ward_name_Hữu Hòa,-0.0,0.0
+categorical__ward_name_Hựu Thạnh,-0.0,0.0
+categorical__ward_name_Khai Quang,0.0,0.0
+categorical__ward_name_Khuê Mỹ,0.0,0.0
+categorical__ward_name_Khuê Trung,0.0,0.0
+categorical__ward_name_Khánh Bình,-0.0,0.0
+categorical__ward_name_Khánh Hà,-0.0,0.0
+categorical__ward_name_Khâm Thiên,-0.0,0.0
+categorical__ward_name_Đức Hòa Hạ,-0.0,0.0
+categorical__ward_name_Khương Thượng,-0.0,0.0
+categorical__ward_name_Khương Trung,0.0,0.0
+categorical__ward_name_Khương Đình,-0.0,0.0
+categorical__ward_name_Kim Chung,-0.0,0.0
+categorical__ward_name_Kim Liên,-0.0,0.0
+categorical__ward_name_Kim Mã,0.0,0.0
+categorical__ward_name_Kim Nỗ,-0.0,0.0
+categorical__ward_name_Kiêu Kỵ,-0.0,0.0
+categorical__ward_name_Kiến Hưng,-0.0,0.0
+categorical__ward_name_Kênh Dương,0.0,0.0
+categorical__ward_name_Kỳ Bá,-0.0,0.0
+categorical__ward_name_La Khê,0.0,0.0
+categorical__ward_name_La Phù,-0.0,0.0
+categorical__ward_name_Lai Uyên,-0.0,0.0
+categorical__ward_name_Linh Chiểu,-0.0,0.0
+categorical__ward_name_Linh Trung,-0.0,0.0
+categorical__ward_name_Linh Tây,-0.0,0.0
+categorical__province_name_Cao Bằng,-0.0,0.0
+categorical__ward_name_Linh Đông,-0.0,0.0
+categorical__ward_name_Liên Bảo,0.0,0.0
+categorical__ward_name_Liên Hà,-0.0,0.0
+categorical__ward_name_Liên Mạc,-0.0,0.0
+categorical__ward_name_Liên Nghĩa,0.0,0.0
+categorical__ward_name_Liên Ninh,-0.0,0.0
+categorical__ward_name_Liễu Giai,0.0,0.0
+categorical__ward_name_Long An,-0.0,0.0
+categorical__ward_name_Long Biên,0.0,0.0
+categorical__ward_name_Long Bình,-0.0,0.0
+categorical__ward_name_Long Bình Tân,0.0,0.0
+categorical__ward_name_Long Hoa,-0.0,0.0
+categorical__ward_name_Long Hòa,-0.0,0.0
+categorical__ward_name_Long Hưng,0.0,0.0
+categorical__ward_name_Long Hương,-0.0,0.0
+categorical__ward_name_Long Hậu,0.0,0.0
+categorical__ward_name_Long Khê,-0.0,0.0
+categorical__ward_name_Long Phước,-0.0,0.0
+categorical__ward_name_Long Thành,0.0,0.0
+categorical__ward_name_Long Thượng,-0.0,0.0
+categorical__ward_name_Long Thạnh Mỹ,-0.0,0.0
+categorical__ward_name_Long Thới,-0.0,0.0
+categorical__ward_name_Long Toàn,-0.0,0.0
+categorical__ward_name_Long Trường,-0.0,0.0
+categorical__ward_name_Long Trạch,-0.0,0.0
+categorical__ward_name_Long Tuyền,-0.0,0.0
+categorical__ward_name_Long Tâm,-0.0,0.0
+categorical__ward_name_Lào Cai,0.0,0.0
+categorical__ward_name_Lái Thiêu,0.0,0.0
+categorical__ward_name_Láng Hạ,0.0,0.0
+categorical__ward_name_Láng Thượng,0.0,0.0
+categorical__ward_name_Lê Bình,-0.0,0.0
+categorical__ward_name_Lê Hồng Phong,0.0,0.0
+categorical__ward_name_Lê Lợi,-0.0,0.0
+categorical__ward_name_Lê Minh Xuân,-0.0,0.0
+categorical__ward_name_Lê Đại Hành,0.0,0.0
+categorical__ward_name_Lý Thái Tổ,0.0,0.0
+categorical__ward_name_Lĩnh Nam,-0.0,0.0
+categorical__ward_name_Lương Hòa,-0.0,0.0
+categorical__ward_name_Lạch Tray,0.0,0.0
+categorical__ward_name_Lại Yên,-0.0,0.0
+categorical__ward_name_Lệ Chi,-0.0,0.0
+categorical__ward_name_Lộc An,-0.0,0.0
+categorical__ward_name_Lộc Châu,-0.0,0.0
+categorical__ward_name_Lộc Phát,-0.0,0.0
+categorical__ward_name_Lộc Sơn,-0.0,0.0
+categorical__house_direction_infrequent_sklearn,0.0,0.0
+categorical__ward_name_Lộc Tiến,-0.0,0.0
+categorical__ward_name_Lộc Vượng,0.0,0.0
+categorical__ward_name_Mai Dịch,-0.0,0.0
+categorical__ward_name_Mai Lâm,-0.0,0.0
+categorical__ward_name_Mai Đình,-0.0,0.0
+categorical__ward_name_Mai Động,0.0,0.0
+categorical__ward_name_Minh An,0.0,0.0
+categorical__ward_name_Minh Hưng,-0.0,0.0
+categorical__ward_name_Minh Khai,-0.0,0.0
+categorical__ward_name_Máy Chai,0.0,0.0
+categorical__ward_name_Mân Thái,-0.0,0.0
+categorical__ward_name_Mê Linh,-0.0,0.0
+categorical__ward_name_Mễ Sở,0.0,0.0
+categorical__ward_name_Mễ Trì,0.0,0.0
+categorical__ward_name_Mộ Lao,0.0,0.0
+categorical__balcony_direction_infrequent_sklearn,0.0,0.0
+categorical__ward_name_Mỹ Bình,-0.0,0.0
+categorical__ward_name_Mỹ Hòa,-0.0,0.0
+categorical__ward_name_Mỹ Hạnh Bắc,-0.0,0.0
+categorical__ward_name_Mỹ Hạnh Nam,-0.0,0.0
+categorical__ward_name_Mỹ Lộc,-0.0,0.0
+categorical__ward_name_Mỹ Phong,-0.0,0.0
+categorical__ward_name_Mỹ Phước,-0.0,0.0
+categorical__ward_name_Mỹ Thới,-0.0,0.0
+categorical__ward_name_Mỹ Xuân,-0.0,0.0
+categorical__ward_name_Mỹ Yên,0.0,0.0
+categorical__ward_name_Mỹ Đình 1,0.0,0.0
+categorical__ward_name_Mỹ Đình 2,0.0,0.0
+categorical__ward_name_Nam Ban,-0.0,0.0
+categorical__ward_name_Nam Hà,-0.0,0.0
+categorical__ward_name_Nam Hải,0.0,0.0
+categorical__ward_name_Nam Hồng,-0.0,0.0
+categorical__ward_name_Nam Sơn,-0.0,0.0
+categorical__ward_name_Nam Đồng,0.0,0.0
+categorical__ward_name_Nghĩa Trụ,0.0,0.0
+categorical__ward_name_Nghĩa Tân,0.0,0.0
+categorical__ward_name_Nghĩa Đô,0.0,0.0
+categorical__ward_name_Nguyên Khê,-0.0,0.0
+categorical__ward_name_Nguyễn An Ninh,0.0,0.0
+categorical__ward_name_Nguyễn Cư Trinh,-0.0,0.0
+categorical__ward_name_Nguyễn Du,0.0,0.0
+categorical__ward_name_Nguyễn Thái Bình,0.0,0.0
+categorical__ward_name_Nguyễn Văn Cừ,0.0,0.0
+categorical__ward_name_Ngãi Giao,-0.0,0.0
+categorical__ward_name_Ngô Mây,0.0,0.0
+categorical__ward_name_Ngũ Hiệp,-0.0,0.0
+categorical__ward_name_Ngọc Châu,0.0,0.0
+categorical__ward_name_Ngọc Hiệp,-0.0,0.0
+categorical__ward_name_Ngọc Hà,-0.0,0.0
+categorical__ward_name_Ngọc Hòa,-0.0,0.0
+categorical__ward_name_Ngọc Hồi,-0.0,0.0
+categorical__ward_name_Ngọc Khánh,0.0,0.0
+categorical__ward_name_Ngọc Lâm,0.0,0.0
+categorical__ward_name_Ngọc Thụy,0.0,0.0
+categorical__ward_name_Nhuận Đức,-0.0,0.0
+categorical__ward_name_Nhà Bè,-0.0,0.0
+categorical__ward_name_Nhân Chính,0.0,0.0
+categorical__ward_name_Nhơn Bình,0.0,0.0
+categorical__ward_name_Nhơn Đức,-0.0,0.0
+categorical__ward_name_Như Quỳnh,0.0,0.0
+categorical__ward_name_Nhật Tân,0.0,0.0
+categorical__ward_name_Nhị Bình,-0.0,0.0
+categorical__ward_name_Nhị Khê,-0.0,0.0
+categorical__ward_name_Nhựt Chánh,-0.0,0.0
+categorical__ward_name_Ninh Hiệp,-0.0,0.0
+categorical__ward_name_Ninh Thủy,-0.0,0.0
+categorical__ward_name_Nại Hiên Đông,-0.0,0.0
+categorical__ward_name_Phan Bội Châu,0.0,0.0
+categorical__ward_name_Phan Chu Trinh,0.0,0.0
+categorical__ward_name_Phong Nẫm,-0.0,0.0
+categorical__ward_name_Phong Phú,0.0,0.0
+categorical__ward_name_Phù Chẩn,0.0,0.0
+categorical__ward_name_Phù Khê,0.0,0.0
+categorical__ward_name_Phù Lỗ,-0.0,0.0
+categorical__ward_name_Phù Đổng,-0.0,0.0
+categorical__ward_name_Phùng,-0.0,0.0
+categorical__ward_name_Phú Chánh,-0.0,0.0
+categorical__ward_name_Phú Cát,-0.0,0.0
+categorical__ward_name_Phú Cường,-0.0,0.0
+categorical__ward_name_Phú Diễn,0.0,0.0
+categorical__ward_name_Phú Hòa,0.0,0.0
+categorical__ward_name_Phú Hòa Đông,-0.0,0.0
+categorical__ward_name_Phú Hưng,-0.0,0.0
+categorical__ward_name_Phú Hội,-0.0,0.0
+categorical__ward_name_Phú Hữu,-0.0,0.0
+categorical__ward_name_Phú Khương,-0.0,0.0
+categorical__ward_name_Phú La,0.0,0.0
+categorical__ward_name_Phú Lãm,-0.0,0.0
+categorical__ward_name_Phú Lương,-0.0,0.0
+categorical__ward_name_Phú Lợi,0.0,0.0
+categorical__ward_name_Phú Mỹ,-0.0,0.0
+categorical__ward_name_Phú Nhuận,-0.0,0.0
+categorical__ward_name_Phú Sơn,-0.0,0.0
+categorical__ward_name_Phú Thuận,-0.0,0.0
+categorical__ward_name_Phú Thượng,-0.0,0.0
+categorical__ward_name_Phú Thạnh,0.0,0.0
+categorical__ward_name_Phú Thọ,0.0,0.0
+categorical__ward_name_Phú Thọ Hòa,-0.0,0.0
+categorical__ward_name_Phú Thủy,0.0,0.0
+categorical__ward_name_Phú Thứ,-0.0,0.0
+categorical__ward_name_Phú Trinh,-0.0,0.0
+categorical__ward_name_Phú Trung,-0.0,0.0
+categorical__ward_name_Phú Tân,-0.0,0.0
+categorical__ward_name_Phú Xuân,-0.0,0.0
+categorical__ward_name_Phú Đô,-0.0,0.0
+categorical__ward_name_Phú Đông,-0.0,0.0
+categorical__ward_name_Phúc Diễn,0.0,0.0
+categorical__ward_name_Phúc La,0.0,0.0
+categorical__ward_name_Phúc Lợi,-0.0,0.0
+categorical__ward_name_Phúc Tân,-0.0,0.0
+categorical__ward_name_Phúc Xá,-0.0,0.0
+categorical__ward_name_Phúc Đồng,0.0,0.0
+categorical__ward_name_Phương Canh,-0.0,0.0
+categorical__ward_name_Phương Liên - Trung Tự,0.0,0.0
+categorical__ward_name_Phương Liệt,0.0,0.0
+categorical__ward_name_Phương Mai,0.0,0.0
+categorical__ward_name_Phương Sài,-0.0,0.0
+categorical__ward_name_Phước Bình,0.0,0.0
+categorical__ward_name_Phước Bửu,-0.0,0.0
+categorical__ward_name_Phước Hiệp,-0.0,0.0
+categorical__ward_name_Phước Hòa,0.0,0.0
+categorical__ward_name_Phước Hưng,-0.0,0.0
+categorical__ward_name_Phước Hải,0.0,0.0
+categorical__ward_name_Phước Hậu,-0.0,0.0
+categorical__ward_name_Phước Kiển,-0.0,0.0
+categorical__ward_name_Phước Long,0.0,0.0
+categorical__ward_name_Phước Long A,-0.0,0.0
+categorical__ward_name_Phước Long B,-0.0,0.0
+categorical__ward_name_Phước Lý,0.0,0.0
+categorical__ward_name_Phước Lộc,-0.0,0.0
+categorical__ward_name_Phước Lợi,-0.0,0.0
+categorical__ward_name_Phước Mỹ,0.0,0.0
+categorical__ward_name_Phước Nguyên,0.0,0.0
+categorical__ward_name_Phước Ninh,0.0,0.0
+categorical__ward_name_Phước Thiền,-0.0,0.0
+categorical__ward_name_Phước Thuận,-0.0,0.0
+categorical__ward_name_Phước Thái,-0.0,0.0
+categorical__ward_name_Phước Thạnh,-0.0,0.0
+categorical__ward_name_Phước Trung,0.0,0.0
+categorical__ward_name_Phước Tân,-0.0,0.0
+categorical__ward_name_Phước Vĩnh An,-0.0,0.0
+categorical__ward_name_Phước Đông,-0.0,0.0
+categorical__ward_name_Phước Đồng,-0.0,0.0
+categorical__ward_name_Phạm Ngũ Lão,0.0,0.0
+categorical__ward_name_Phạm Văn Cội,-0.0,0.0
+categorical__ward_name_Phạm Văn Hai,-0.0,0.0
+categorical__ward_name_Phạm Đình Hổ,0.0,0.0
+categorical__ward_name_Phố Huế,0.0,0.0
+categorical__ward_name_Phụng Châu,-0.0,0.0
+categorical__ward_name_Phụng Công,0.0,0.0
+categorical__ward_name_Quan Hoa,-0.0,0.0
+categorical__ward_name_Quang Minh,-0.0,0.0
+categorical__ward_name_Quang Tiến,-0.0,0.0
+categorical__ward_name_Quang Trung,0.0,0.0
+categorical__ward_name_Quang Vinh,0.0,0.0
+categorical__ward_name_Quán Thánh,0.0,0.0
+categorical__province_name_Cà Mau,-0.0,0.0
+categorical__ward_name_Quốc Oai,-0.0,0.0
+categorical__ward_name_Quỳnh Mai,-0.0,0.0
+categorical__ward_name_Rạch Dừa,-0.0,0.0
+categorical__ward_name_Rạch Ông,0.0,0.0
+categorical__ward_name_Sa Pa,0.0,0.0
+categorical__ward_name_Song Phương,-0.0,0.0
+categorical__ward_name_Suối Hiệp,-0.0,0.0
+categorical__ward_name_Sài Sơn,-0.0,0.0
+categorical__ward_name_Sông Trầu,-0.0,0.0
+categorical__ward_name_Sơn Kỳ,-0.0,0.0
+categorical__ward_name_Sơn Phong,0.0,0.0
+categorical__ward_name_Sơn Đông,-0.0,0.0
+categorical__ward_name_Sơn Đồng,-0.0,0.0
+categorical__ward_name_Sở Dầu,0.0,0.0
+categorical__ward_name_Tam Bình,-0.0,0.0
+categorical__ward_name_Tam Hiệp,0.0,0.0
+categorical__ward_name_Tam Phú,-0.0,0.0
+categorical__ward_name_Tam Phước,-0.0,0.0
+categorical__ward_name_Thanh Bình,0.0,0.0
+categorical__ward_name_Thanh Hà,-0.0,0.0
+categorical__ward_name_Thanh Hải,0.0,0.0
+categorical__ward_name_Thanh Khê Tây,-0.0,0.0
+categorical__ward_name_Thanh Khê Đông,-0.0,0.0
+categorical__ward_name_Thanh Liệt,0.0,0.0
+categorical__ward_name_Thanh Lâm,-0.0,0.0
+categorical__ward_name_Thanh Lương,-0.0,0.0
+categorical__ward_name_Thanh Nhàn,-0.0,0.0
+categorical__ward_name_Thanh Phước,-0.0,0.0
+categorical__ward_name_Thanh Trì,-0.0,0.0
+categorical__ward_name_Thanh Xuân Bắc,0.0,0.0
+categorical__ward_name_Thanh Xuân Trung,0.0,0.0
+categorical__ward_name_Thiên Hương,-0.0,0.0
+categorical__ward_name_Thiện Tân,-0.0,0.0
+categorical__ward_name_Thuận Giao,0.0,0.0
+categorical__ward_name_Thuận Phước,0.0,0.0
+categorical__ward_name_Thành Công,0.0,0.0
+categorical__ward_name_Thành Nhất,-0.0,0.0
+categorical__ward_name_Thành Tô,0.0,0.0
+categorical__ward_name_Thái Hòa,-0.0,0.0
+categorical__ward_name_Thái Mỹ,-0.0,0.0
+categorical__ward_name_Thường Thạnh,-0.0,0.0
+categorical__ward_name_Thường Tín,-0.0,0.0
+categorical__ward_name_Thượng Cát,-0.0,0.0
+categorical__ward_name_Thượng Lý,0.0,0.0
+categorical__province_name_Gia Lai,-0.0,0.0
+categorical__ward_name_Thượng Đình,-0.0,0.0
+categorical__ward_name_Thạc Gián,0.0,0.0
+categorical__ward_name_Thạch Bàn,-0.0,0.0
+categorical__ward_name_Thạch Thang,0.0,0.0
+categorical__ward_name_Thạnh Lộc,0.0,0.0
+categorical__ward_name_Thạnh Mỹ Lợi,0.0,0.0
+categorical__ward_name_Thạnh Phú,-0.0,0.0
+categorical__ward_name_Thạnh Xuân,-0.0,0.0
+categorical__province_name_Hà Giang,-0.0,0.0
+categorical__ward_name_Thắng Nhì,-0.0,0.0
+categorical__ward_name_Thắng Nhất,0.0,0.0
+categorical__ward_name_Thắng Tam,0.0,0.0
+categorical__ward_name_Thị Nại,0.0,0.0
+categorical__ward_name_Thịnh Liệt,0.0,0.0
+categorical__ward_name_Thịnh Quang,-0.0,0.0
+categorical__ward_name_Thọ Quang,-0.0,0.0
+categorical__ward_name_Thống Nhất,0.0,0.0
+categorical__ward_name_Thổ Quan,-0.0,0.0
+categorical__ward_name_Thới An,-0.0,0.0
+categorical__ward_name_Thới Bình,0.0,0.0
+categorical__ward_name_Thới Hòa,-0.0,0.0
+categorical__ward_name_Thới Tam Thôn,-0.0,0.0
+categorical__ward_name_Thụy Hương,-0.0,0.0
+categorical__ward_name_Thụy Khuê,0.0,0.0
+categorical__ward_name_Thụy Phương,-0.0,0.0
+categorical__ward_name_Thủy Đường,0.0,0.0
+categorical__ward_name_Tiên Dương,-0.0,0.0
+categorical__ward_name_Tiền Phong,-0.0,0.0
+categorical__ward_name_Tiền Yên,-0.0,0.0
+categorical__ward_name_Trung An,-0.0,0.0
+categorical__ward_name_Trung Chánh,0.0,0.0
+categorical__ward_name_Trung Dũng,0.0,0.0
+categorical__ward_name_Trung Giã,-0.0,0.0
+categorical__province_name_Hà Nam,0.0,0.0
+categorical__ward_name_Trung Liệt,0.0,0.0
+categorical__ward_name_Trung Lập Hạ,-0.0,0.0
+categorical__ward_name_Trung Mỹ Tây,-0.0,0.0
+categorical__ward_name_Trung Văn,0.0,0.0
+categorical__ward_name_Tràng Cát,-0.0,0.0
+categorical__ward_name_Tràng Tiền,0.0,0.0
+categorical__ward_name_Trâu Quỳ,-0.0,0.0
+categorical__ward_name_Trúc Bạch,0.0,0.0
+categorical__ward_name_Trương Định,-0.0,0.0
+categorical__ward_name_Trường Thi,0.0,0.0
+categorical__ward_name_Trường Thạnh,-0.0,0.0
+categorical__ward_name_Trường Thọ,0.0,0.0
+categorical__ward_name_Trường Tây,-0.0,0.0
+categorical__ward_name_Trạm Trôi,-0.0,0.0
+categorical__ward_name_Trảng Bom,-0.0,0.0
+categorical__ward_name_Trảng Bàng,-0.0,0.0
+categorical__ward_name_Trảng Dài,-0.0,0.0
+categorical__ward_name_Trần Hưng Đạo,0.0,0.0
+categorical__ward_name_Trần Lãm,-0.0,0.0
+categorical__ward_name_Trần Nguyên Hãn,0.0,0.0
+categorical__ward_name_Trần Phú,-0.0,0.0
+categorical__ward_name_Trần Quang Diệu,-0.0,0.0
+categorical__ward_name_Trần Thành Ngọ,-0.0,0.0
+categorical__ward_name_Trừ Văn Thố,-0.0,0.0
+categorical__ward_name_Tân An,0.0,0.0
+categorical__ward_name_Tân An Hội,-0.0,0.0
+categorical__ward_name_Tân Biên,0.0,0.0
+categorical__ward_name_Tân Bình,-0.0,0.0
+categorical__ward_name_Tân Bửu,-0.0,0.0
+categorical__ward_name_Tân Chánh Hiệp,0.0,0.0
+categorical__ward_name_Tân Hiệp,-0.0,0.0
+categorical__ward_name_Tân Hà,-0.0,0.0
+categorical__ward_name_Tân Hòa,-0.0,0.0
+categorical__ward_name_Tân Hưng,-0.0,0.0
+categorical__ward_name_Tân Hưng Thuận,0.0,0.0
+categorical__ward_name_Tân Hạnh,-0.0,0.0
+categorical__ward_name_Tân Hội,-0.0,0.0
+categorical__ward_name_Tân Kiên,-0.0,0.0
+categorical__ward_name_Tân Kiểng,-0.0,0.0
+categorical__ward_name_Tân Lập,-0.0,0.0
+categorical__ward_name_Tân Lợi,0.0,0.0
+categorical__ward_name_Tân Mai,0.0,0.0
+categorical__ward_name_Tân Minh,-0.0,0.0
+categorical__ward_name_Tân Mỹ Chánh,-0.0,0.0
+categorical__ward_name_Tân Nhựt,-0.0,0.0
+categorical__ward_name_Tân Phong,0.0,0.0
+categorical__ward_name_Tân Phú,-0.0,0.0
+categorical__ward_name_Tân Phú Trung,-0.0,0.0
+categorical__ward_name_Tân Phước,-0.0,0.0
+categorical__ward_name_Tân Phước Khánh,-0.0,0.0
+categorical__ward_name_Tân Quang,0.0,0.0
+categorical__ward_name_Tân Quy,0.0,0.0
+categorical__ward_name_Tân Quý,0.0,0.0
+categorical__ward_name_Tân Quý Tây,-0.0,0.0
+categorical__ward_name_Tân Sơn Nhì,0.0,0.0
+categorical__ward_name_Tân Thuận Tây,0.0,0.0
+categorical__ward_name_Tân Thuận Đông,-0.0,0.0
+categorical__ward_name_Tân Thành,0.0,0.0
+categorical__ward_name_Tân Thông Hội,-0.0,0.0
+categorical__ward_name_Tân Thạnh Đông,-0.0,0.0
+categorical__ward_name_Tân Thới Hiệp,-0.0,0.0
+categorical__ward_name_Tân Thới Hòa,-0.0,0.0
+categorical__ward_name_Tân Thới Nhì,-0.0,0.0
+categorical__ward_name_Tân Thới Nhất,0.0,0.0
+categorical__ward_name_Tân Tiến,0.0,0.0
+categorical__ward_name_Tân Triều,0.0,0.0
+categorical__ward_name_Tân Túc,-0.0,0.0
+categorical__ward_name_Tân Tạo,-0.0,0.0
+categorical__ward_name_Tân Tạo A,-0.0,0.0
+categorical__ward_name_Tân Vĩnh Hiệp,-0.0,0.0
+categorical__ward_name_Tân Vạn,-0.0,0.0
+categorical__ward_name_Tân Xuân,-0.0,0.0
+categorical__ward_name_Tân Xã,-0.0,0.0
+categorical__ward_name_Tân Đông Hiệp,0.0,0.0
+categorical__ward_name_Tân Định,-0.0,0.0
+categorical__ward_name_Tân Ước,-0.0,0.0
+categorical__ward_name_Tây Mỗ,-0.0,0.0
+categorical__ward_name_Tây Thạnh,-0.0,0.0
+categorical__ward_name_Tây Tựu,-0.0,0.0
+categorical__ward_name_Tăng Nhơn Phú A,-0.0,0.0
+categorical__ward_name_Tăng Nhơn Phú B,-0.0,0.0
+categorical__ward_name_Tương Bình Hiệp,-0.0,0.0
+categorical__ward_name_Tương Mai,0.0,0.0
+categorical__ward_name_Tả Thanh Oai,-0.0,0.0
+categorical__ward_name_Tứ Hiệp,-0.0,0.0
+categorical__ward_name_Tứ Liên,-0.0,0.0
+categorical__ward_name_Tự An,-0.0,0.0
+categorical__ward_name_Uy Nỗ,-0.0,0.0
+categorical__ward_name_Uyên Hưng,-0.0,0.0
+categorical__ward_name_Việt Hùng,-0.0,0.0
+categorical__ward_name_Việt Hưng,0.0,0.0
+categorical__ward_name_Vân Canh,0.0,0.0
+categorical__ward_name_Vân Côn,-0.0,0.0
+categorical__ward_name_Vân Hà,-0.0,0.0
+categorical__ward_name_Vân Nội,-0.0,0.0
+categorical__ward_name_Võ Cường,0.0,0.0
+categorical__province_name_Hà Tĩnh,-0.0,0.0
+categorical__ward_name_Võng La,-0.0,0.0
+categorical__ward_name_Văn Bình,-0.0,0.0
+categorical__ward_name_Văn Chương,-0.0,0.0
+categorical__ward_name_Văn Quán,0.0,0.0
+categorical__ward_name_Thượng Thanh,-0.0,0.0
+categorical__ward_name_Văn Đẩu,-0.0,0.0
+categorical__ward_name_Vĩnh Hiệp,-0.0,0.0
+categorical__ward_name_Vĩnh Hòa,-0.0,0.0
+categorical__ward_name_Vĩnh Hưng,-0.0,0.0
+categorical__ward_name_Vĩnh Hải,-0.0,0.0
+categorical__ward_name_Vĩnh Lạc,-0.0,0.0
+categorical__ward_name_Vĩnh Lộc A,-0.0,0.0
+categorical__ward_name_Vĩnh Lộc B,-0.0,0.0
+categorical__ward_name_Vĩnh Nguyên,0.0,0.0
+categorical__ward_name_Vĩnh Ngọc,-0.0,0.0
+categorical__ward_name_Vĩnh Niệm,0.0,0.0
+categorical__ward_name_Vĩnh Phú,0.0,0.0
+categorical__ward_name_Vĩnh Phúc,-0.0,0.0
+categorical__ward_name_Vĩnh Phương,-0.0,0.0
+categorical__ward_name_Vĩnh Phước,-0.0,0.0
+categorical__ward_name_Vĩnh Quang,-0.0,0.0
+categorical__ward_name_Vĩnh Quỳnh,-0.0,0.0
+categorical__ward_name_Vĩnh Thanh,-0.0,0.0
+categorical__ward_name_Vĩnh Thái,-0.0,0.0
+categorical__ward_name_Vĩnh Thạnh,-0.0,0.0
+categorical__ward_name_Vĩnh Thọ,0.0,0.0
+categorical__ward_name_Vĩnh Trung,-0.0,0.0
+categorical__ward_name_Vĩnh Trường,-0.0,0.0
+categorical__ward_name_Vĩnh Tuy,0.0,0.0
+categorical__ward_name_Vĩnh Tân,-0.0,0.0
+categorical__ward_name_Vũ Phúc,-0.0,0.0
+categorical__ward_name_Vạn Mỹ,0.0,0.0
+categorical__ward_name_Vạn Phúc,0.0,0.0
+categorical__ward_name_Vạn Thạnh,0.0,0.0
+categorical__ward_name_Xuân An,0.0,0.0
+categorical__ward_name_Xuân Hà,-0.0,0.0
+categorical__ward_name_Xuân Khánh,0.0,0.0
+categorical__ward_name_Xuân La,0.0,0.0
+categorical__ward_name_Xuân Mai,-0.0,0.0
+categorical__ward_name_Xuân Nộn,-0.0,0.0
+categorical__ward_name_Xuân Phương,-0.0,0.0
+categorical__ward_name_Xuân Thới Sơn,-0.0,0.0
+categorical__ward_name_Xuân Thới Thượng,-0.0,0.0
+categorical__ward_name_Xuân Thới Đông,-0.0,0.0
+categorical__ward_name_Xuân Tảo,0.0,0.0
+categorical__ward_name_Xuân Đỉnh,0.0,0.0
+categorical__ward_name_Yên Hòa,-0.0,0.0
+categorical__ward_name_Yên Mỹ,-0.0,0.0
+categorical__ward_name_Yên Nghĩa,-0.0,0.0
+categorical__ward_name_Yên Phụ,-0.0,0.0
+categorical__ward_name_Yên Sở,0.0,0.0
+categorical__ward_name_Yên Thường,-0.0,0.0
+categorical__ward_name_Yên Trung,-0.0,0.0
+categorical__ward_name_Yên Viên,-0.0,0.0
+categorical__province_name_Hòa Bình,-0.0,0.0
+categorical__ward_name_Đa Kao,0.0,0.0
+categorical__ward_name_Đa Phúc,-0.0,0.0
+categorical__ward_name_Đa Phước,-0.0,0.0
+categorical__ward_name_Đa Tốn,-0.0,0.0
+categorical__ward_name_Đan Phượng,-0.0,0.0
+categorical__ward_name_Điện Biên,0.0,0.0
+categorical__ward_name_Điện Dương,-0.0,0.0
+categorical__ward_name_Điện Ngọc,-0.0,0.0
+categorical__ward_name_Đôn Thuận,-0.0,0.0
+categorical__ward_name_Đông Anh,-0.0,0.0
+categorical__ward_name_Đông Hòa,0.0,0.0
+categorical__ward_name_Đông Hưng Thuận,-0.0,0.0
+categorical__ward_name_Đông Hương,0.0,0.0
+categorical__ward_name_Đông Hải 1,0.0,0.0
+categorical__ward_name_Đông Hải 2,0.0,0.0
+categorical__ward_name_Đông Hội,-0.0,0.0
+categorical__ward_name_Đông Khê,0.0,0.0
+categorical__ward_name_Đông La,-0.0,0.0
+categorical__ward_name_Đông Mỹ,-0.0,0.0
+categorical__ward_name_Đông Ngạc,-0.0,0.0
+categorical__ward_name_Đông Thạnh,-0.0,0.0
+categorical__ward_name_Đông Thọ,0.0,0.0
+categorical__ward_name_Đông Vệ,0.0,0.0
+categorical__ward_name_Đông Xuân,-0.0,0.0
+categorical__ward_name_Đại Kim,0.0,0.0
+categorical__ward_name_Đại Lào,-0.0,0.0
+categorical__ward_name_Đại Mạch,-0.0,0.0
+categorical__ward_name_Đại Mỗ,-0.0,0.0
+categorical__ward_name_Đại Phúc,0.0,0.0
+categorical__ward_name_Đại Phước,-0.0,0.0
+categorical__ward_name_Đại áng,-0.0,0.0
+categorical__ward_name_Đại Đồng,0.0,0.0
+categorical__ward_name_Đạo Thạnh,-0.0,0.0
+categorical__ward_name_Đằng Giang,0.0,0.0
+categorical__ward_name_Đằng Hải,0.0,0.0
+categorical__ward_name_Đằng Lâm,0.0,0.0
+categorical__ward_name_Đặng Xá,-0.0,0.0
+categorical__ward_name_Định Công,0.0,0.0
+categorical__ward_name_Định Hòa,-0.0,0.0
+categorical__ward_name_Định Trung,-0.0,0.0
+categorical__ward_name_Đống Đa,0.0,0.0
+categorical__ward_name_Đồng Hòa,-0.0,0.0
+categorical__ward_name_Đồng Kỵ,-0.0,0.0
+categorical__ward_name_Đồng Mai,-0.0,0.0
+categorical__ward_name_Đồng Nguyên,0.0,0.0
+categorical__ward_name_Đồng Nhân,0.0,0.0
+categorical__ward_name_Đồng Quang,-0.0,0.0
+categorical__ward_name_Đồng Thái,-0.0,0.0
+categorical__ward_name_Đồng Tiến,-0.0,0.0
+categorical__ward_name_Đồng Tâm,0.0,0.0
+categorical__ward_name_Đồng Xuân,0.0,0.0
+categorical__ward_name_Đội Cấn,0.0,0.0
+categorical__ward_name_Đức Giang,0.0,0.0
+categorical__ward_name_Đức Hòa,-0.0,0.0
+categorical__province_name_Hưng Yên,0.0,0.0
+numeric__year,0.0,0.0
+numeric__month,0.0,0.0
+categorical__province_name_Hải Dương,0.0,0.0
+categorical__province_name_Hậu Giang,-0.0,0.0
+categorical__province_name_An Giang,-0.0,0.0
+categorical__province_name_Kiên Giang,-0.0,0.0
+categorical__province_name_Kon Tum,-0.0,0.0
+categorical__province_name_Bình Phước,-0.0,0.0
+categorical__province_name_Bình Thuận,-0.0,0.0
+categorical__province_name_Bình Định,0.0,0.0
+categorical__province_name_Bạc Liêu,-0.0,0.0
+categorical__province_name_Bắc Giang,0.0,0.0
+categorical__province_name_Bắc Ninh,0.0,0.0
+categorical__province_name_Lai Châu,-0.0,0.0
+categorical__province_name_Lào Cai,0.0,0.0
+categorical__province_name_Lạng Sơn,0.0,0.0
+categorical__ward_name_Đức Hòa Đông,-0.0,0.0
+categorical__ward_name_Đức Lập Hạ,-0.0,0.0
+categorical__ward_name_Đức Thượng,-0.0,0.0
+categorical__ward_name_Đức Thắng,-0.0,0.0
+categorical__province_name_Nam Định,-0.0,0.0
+categorical__province_name_Nghệ An,0.0,0.0
+categorical__province_name_Ninh Bình,0.0,0.0
+categorical__province_name_Ninh Thuận,-0.0,0.0
+categorical__province_name_Phú Thọ,0.0,0.0
+categorical__province_name_Phú Yên,-0.0,0.0
+categorical__province_name_Quảng Bình,0.0,0.0
+categorical__province_name_Quảng Ngãi,-0.0,0.0
+categorical__province_name_Quảng Ninh,0.0,0.0
+categorical__province_name_Quảng Trị,-0.0,0.0
+categorical__ward_name_Văn Điển,-0.0,0.0

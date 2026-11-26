@@ -1,0 +1,19 @@
+# Dataset gốc và các partition có dữ liệu tin đăng/test
+/data/
+
+# Python local state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Predictions and row-level residuals; may contain source records/labels
+/reports/test_predictions.csv
+/reports/*_residuals.csv
+
+# Local editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
