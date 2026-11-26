@@ -43,3 +43,15 @@ python -m src.final_evaluation
 ```
 
 `final_evaluation` khóa ứng viên Lasso theo validation/CV, fit lại trên train+validation, rồi mới đọc test. Báo cáo nằm tại `reports/10_final_test.md`; artifact gồm pipeline tiền xử lý và hệ số mô hình ở `models/vietnam_house_lasso.pkl`. Các tệp dự đoán test chỉ phục vụ phân tích báo cáo cuối, không dùng để điều chỉnh mô hình.
+
+## Dự đoán cho một căn nhà
+
+Sửa `examples/house_input.json` rồi chạy:
+
+```powershell
+python -m src.predict_house examples/house_input.json
+```
+
+`area` và `published_at` là bắt buộc. Các thuộc tính còn lại có thể bỏ qua hoặc đặt `null`; pipeline sẽ điền giá trị thiếu theo thống kê đã học lúc fit. Địa danh nên dùng đúng cách viết trong dữ liệu huấn luyện (ví dụ `province_name: "Hồ Chí Minh"`, `district_name: "1"`), nếu không OneHotEncoder sẽ coi đó là nhóm chưa thấy. Kết quả là giá niêm yết ước tính bằng VND. Dự đoán ngoài khoảng thời gian dữ liệu (2025-06 đến 2026-03) là ngoại suy, độ tin cậy chưa được xác nhận.
+
+Mô hình được lưu bằng pickle; chỉ nạp artifact đáng tin cậy do dự án tạo ra, không dùng file pickle tải từ nguồn lạ.

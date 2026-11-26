@@ -1,0 +1,15 @@
+{
+  "area": 80,
+  "floor_count": 3,
+  "frontage_width": 4,
+  "house_depth": 20,
+  "road_width": 6,
+  "bedroom_count": 4,
+  "bathroom_count": 3,
+  "province_name": "Hồ Chí Minh",
+  "district_name": "1",
+  "ward_name": "Bến Nghé",
+  "house_direction": "Đông",
+  "balcony_direction": "Nam",
+  "published_at": "2026-03-15T12:00:00"
+}
