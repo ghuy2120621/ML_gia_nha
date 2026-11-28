@@ -4,3 +4,4 @@ matplotlib
 pyarrow
 scikit-learn
 scipy
+huggingface_hub

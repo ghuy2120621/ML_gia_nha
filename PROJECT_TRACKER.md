@@ -6,8 +6,8 @@
 - **Dataset đã chọn:** [tinixai/vietnam-real-estates](https://huggingface.co/datasets/tinixai/vietnam-real-estates), Parquet, 3.500.744 tin đăng; giấy phép CC BY-NC 4.0.
 - **Diễn giải mục tiêu:** `price` là giá niêm yết trong tin, không phải giá giao dịch đã chốt; `published_at` là ngày đăng tin.
 - **Ràng buộc:** Mô hình cuối do dự án tự xây dựng và huấn luyện; chia dữ liệu theo thời gian; chỉ fit tiền xử lý trên train; chỉ đánh giá test một lần ở cuối; cố định random seed.
-- **Trạng thái tổng thể:** Các bước thử nghiệm, so sánh, đánh giá test và đóng gói đã hoàn thành.
-- **Cập nhật gần nhất:** 2026-11-25 — khóa Lasso theo rubric; chấm test một lần; lưu artifact.
+- **Trạng thái tổng thể:** Nghiên cứu ban đầu và CLI đã hoàn thành; đang theo dõi một ứng viên Lasso hội tụ kỹ hơn, chưa thay artifact.
+- **Cập nhật gần nhất:** 2026-11-28 — bổ sung CLI/tài liệu; chẩn đoán FISTA trên lát train, chưa đổi artifact.
 
 ## Cấu trúc thư mục
 
@@ -15,20 +15,16 @@
 data/
   raw/                  # Dữ liệu gốc, không chỉnh sửa
   processed/            # Dữ liệu đã xử lý (nếu cần lưu)
-notebooks/
-  01_eda.ipynb
-  02_features.ipynb
-  03_exp1_ridge_lasso.ipynb
-  04_exp2_mlp.ipynb
-  05_exp3_hybrid.ipynb
-  06_compare.ipynb
 src/
   models/                # Mô hình tự cài và huấn luyện
 reports/
   figures/               # Biểu đồ và hình trong báo cáo
+examples/                # JSON input mẫu cho CLI dự đoán
+models/                  # Artifact Lasso + preprocessing
 PROJECT_TRACKER.md
+TEAM_TASKS.md
 README.md
-requirements.txt         # Tạo khi chốt thư viện/môi trường
+requirements.txt
 ```
 
 ## Tiến độ và tiêu chí hoàn thành
@@ -38,7 +34,7 @@ requirements.txt         # Tạo khi chốt thư viện/môi trường
 | 0 | Chọn, tải và mô tả dataset | ✅ Hoàn thành | Đã tải và xác nhận đủ 10 shard Parquet, tổng 3.500.744 dòng; nguồn, giấy phép, schema và `published_at` được ghi trong `README.md`/báo cáo. King County CSV được giữ lại nhưng không dùng. |
 | 1 | EDA | ✅ Hoàn thành | Đã chạy `src/eda.py` trên 3.500.744 dòng. Báo cáo số liệu, bảng tháng và 3 biểu đồ ở `reports/01_eda.md` và `reports/figures/`. Phân tích dùng giá đăng tin, không phải giá giao dịch. |
 | 2 | Tiền xử lý và tạo đặc trưng | ✅ Hoàn thành | Chốt chỉ loại `Nhà`; còn 1.493.988 tin có giá dương/ngày hợp lệ. Đã tạo đặc trưng thời gian, lưu bảng đã sắp xếp và định nghĩa pipeline impute/scale/encode. Chưa fit transformer để tránh rò rỉ trước khi chia thời gian. |
-| 3 | Chia dữ liệu theo thời gian | ✅ Hoàn thành | Căn theo ngày: train 69,88% (2025-06-01–2025-12-16), validation 15,15% (2025-12-17–2026-02-08), test 14,97% (2026-02-09–2026-03-30). Đã tạo 5 expanding-window folds chỉ trong train. Chưa xem metric/phân phối mục tiêu test. |
+| 3 | Chia dữ liệu theo thời gian | ✅ Hoàn thành | Căn theo ngày: train 69,88% (2025-06-01–2025-12-16), validation 15,15% (2025-12-17–2026-02-08), test 14,97% (2026-02-09–2026-03-30). Đã tạo 5 expanding-window folds chỉ trong train. Tập test được giữ riêng đến bước 9. |
 | 4 | Baseline | ✅ Hoàn thành | Median và NumPy OLS trên log diện tích + thời gian; validation và 5-fold CV trong `reports/04_baseline.md`. Chưa đọc test. |
 | 5 | Thử nghiệm 1: Ridge/Lasso NumPy | ✅ Hoàn thành | FISTA trên CSR, preprocessing fit theo fold; Lasso giữ làm ứng viên theo rubric. Giới hạn 200 vòng vẫn chưa đạt tolerance; nghiệm gần đúng. |
 | 6 | Thử nghiệm 2: MLP | ✅ Hoàn thành | MLP NumPy, dropout 0,20, Adam, early stopping; sample tối đa 50.000/fold. Kém Lasso trên log error, giữ làm đối chứng phi tuyến; xem `reports/06_exp2_mlp.md`. |
@@ -51,7 +47,12 @@ requirements.txt         # Tạo khi chốt thư viện/môi trường
 
 | ID | Ngày | Thử nghiệm / thay đổi | Cấu hình và dữ liệu | Kết quả validation | Time-series CV (mean ± std) | Quyết định / lý do |
 |---|---|---|---|---|---|---|
-| — | — | Chưa có thử nghiệm | — | — | — | — |
+| 1 | 2026-11-25 | Baseline median + NumPy OLS | Train theo thời gian; OLS dùng log diện tích + thời gian | OLS RMSE/MAE log 0,701/0,529 | 0,727 ± 0,020 / 0,543 ± 0,011 | Mốc đối chiếu; yếu hơn Lasso |
+| 2 | 2026-11-25 | TN1 Ridge/Lasso NumPy | FISTA, alpha Ridge 0,01/Lasso 0,001; giới hạn ban đầu 200 vòng | Lasso RMSE/MAE log 0,509/0,360 | 0,529 ± 0,015 / 0,379 ± 0,012 | Thắng rubric hiện tại; chưa hội tụ ở 200 vòng |
+| 3 | 2026-11-25 | TN2 NumPy MLP | 64 ReLU, dropout 0,2, tối đa 50.000 mẫu/fold | RMSE/MAE log 0,798/0,614 | 0,584 ± 0,020 / 0,389 ± 0,012 | Giữ làm đối chứng phi tuyến; yếu hơn Lasso ở validation |
+| 4 | 2026-11-25 | TN3 autoencoder + Ridge head | Biểu diễn tự học, sample tối đa 50.000/fold | RMSE/MAE log 0,650/0,490 | 0,633 ± 0,018 / 0,461 ± 0,015 | Loại khỏi ứng viên thắng |
+| 5 | 2026-11-26 | CLI dự đoán một căn nhà | Artifact Lasso hiện hành + JSON input mẫu | Smoke check mẫu: 18.824.395.878 VND | Không áp dụng | Luồng CLI chạy được; đây là giá niêm yết |
+| 6 | 2026-11-28 | Chẩn đoán FISTA trên 30.000 dòng train | So sánh power iteration/eigsh; chạy đến 2.000 vòng | 1.000 vòng đạt relative step 0,000064 trên lát train | Chưa chạy đủ CV/validation | Đề xuất nghiên cứu cấu hình 1.000 vòng; chưa thay model/artifact/test report |
 
 ## Mẫu ghi cho mỗi thử nghiệm
 
