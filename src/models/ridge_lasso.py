@@ -40,7 +40,8 @@ def lipschitz_constant(x, iterations: int = 15) -> float:
     return max(float(vector @ (x.T @ (x @ vector)).ravel() / x.shape[0]), 1e-8)
 
 
-def fit_numpy(x, y: np.ndarray, alpha: float, penalty: str) -> tuple[np.ndarray, int, float]:
+def fit_numpy(x, y: np.ndarray, alpha: float, penalty: str,
+              max_iterations: int = ITERATIONS) -> tuple[np.ndarray, int, float]:
     """Fit bình phương tối thiểu có regularization bằng FISTA."""
     x = add_intercept(x)
     y = np.asarray(y, dtype=np.float64)
@@ -52,7 +53,7 @@ def fit_numpy(x, y: np.ndarray, alpha: float, penalty: str) -> tuple[np.ndarray,
     accelerated = weights.copy()
     momentum = 1.0
     relative_change = np.inf
-    for iteration in range(1, ITERATIONS + 1):
+    for iteration in range(1, max_iterations + 1):
         residual = x @ accelerated - y
         gradient = np.asarray(x.T @ residual).ravel() / n
         if penalty == "Ridge":
@@ -74,7 +75,8 @@ def predict(x, weights: np.ndarray) -> np.ndarray:
     return np.asarray(add_intercept(x) @ weights).ravel()
 
 
-def evaluate(train: pd.DataFrame, valid: pd.DataFrame, evaluation: str, fold: int | None) -> list[dict]:
+def evaluate(train: pd.DataFrame, valid: pd.DataFrame, evaluation: str, fold: int | None,
+             max_iterations: int = ITERATIONS) -> list[dict]:
     columns = NUMERIC_FEATURES + CATEGORICAL_FEATURES
     y_train = np.log1p(train[TARGET].to_numpy(dtype=np.float64))
     y_valid = valid[TARGET].to_numpy(dtype=np.float64)
@@ -83,7 +85,7 @@ def evaluate(train: pd.DataFrame, valid: pd.DataFrame, evaluation: str, fold: in
     x_valid = prep.transform(valid[columns])
     rows = []
     for model, alpha in CONFIGS.items():
-        weights, iterations, change = fit_numpy(x_train, y_train, alpha, model)
+        weights, iterations, change = fit_numpy(x_train, y_train, alpha, model, max_iterations)
         log_train = predict(x_train, weights)
         log_valid = predict(x_valid, weights)
         rows.extend([

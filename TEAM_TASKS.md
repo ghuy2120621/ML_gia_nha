@@ -47,9 +47,10 @@ Dự án đã có pipeline EDA, xử lý dữ liệu, chia thời gian, baseline
 
 - Chưa thấy nhánh hoặc commit mới của thành viên nào trên remote `develop`.
 - Đã bổ sung hướng dẫn tải dataset/chạy pipeline trong `README.md` và thêm `huggingface_hub` để có lệnh `hf download`.
-- Đã chẩn đoán FISTA trên 30.000 dòng train; xem `reports/11_lasso_optimizer_diagnostic.md`. Đây chưa phải chạy đủ CV/validation và chưa thay artifact cuối.
-- Thành viên 1 vẫn cần quyết định/chạy 1.000 vòng trên đủ train/CV/validation nếu muốn đề xuất cấu hình mới; không dùng test.
-- Thành viên 2 vẫn cần kiểm tra hướng dẫn trên môi trường sạch; môi trường sạch chưa được dựng trong lần cập nhật này.
+- Đã so sánh FISTA giới hạn 1.000 vòng trên đủ train/CV/validation; xem `reports/12_lasso_1000_validation.md` và kết quả theo fold ở `reports/lasso_1000_results.csv`. 1.000 vòng đạt tolerance nhưng lỗi validation/CV nhỉnh hơn nhẹ; giữ artifact 200 vòng theo khả năng tổng quát hóa, ghi rõ chưa hội tụ.
+- Đã thêm đối chiếu hệ số Ridge/Lasso trên dữ liệu tổng hợp bằng sklearn làm tham chiếu: `python -m src.models.check_optimizer`.
+- Không dùng test để chọn giữa cấu hình 200 và 1.000 vòng.
+- Đã cài requirements vào `.venv` sạch; khóa scikit-learn 1.8.0 để khớp artifact. CLI mẫu chạy không có cảnh báo pickle và `hf download --help` chạy được. Chưa chạy full data pipeline sạch vì chưa tải lại dataset 1,7 GB.
 
 ## Thứ tự phối hợp
 

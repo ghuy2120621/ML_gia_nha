@@ -4,7 +4,7 @@ Dataset được chọn là [`tinixai/vietnam-real-estates`](https://huggingface
 
 ## Cài đặt và tải dữ liệu
 
-Môi trường đã dùng để chạy dự án: Python 3.12.9, NumPy 2.4.4, pandas 3.0.4, scikit-learn 1.8.0, SciPy 1.17.1, PyArrow 26.0.1 và Matplotlib 3.10.8. `requirements.txt` liệt kê thư viện nhưng chưa khóa phiên bản.
+Artifact pickle được tạo bằng scikit-learn 1.8.0; phiên bản này được khóa trong `requirements.txt` để tránh cảnh báo/khác biệt khi nạp pipeline. Các thư viện còn lại chưa khóa phiên bản. Môi trường ban đầu: Python 3.12.9, NumPy 2.4.4, pandas 3.0.4, SciPy 1.17.1, PyArrow 26.0.1 và Matplotlib 3.10.8.
 
 ```powershell
 python -m venv .venv
@@ -29,6 +29,12 @@ python -m src.models.mlp_numpy
 python -m src.models.hybrid_autoencoder
 python -m src.analyze_validation_residuals
 python -m src.compare_models
+```
+
+Đối chiếu optimizer TN1 trên bài toán tổng hợp nhỏ (sklearn chỉ làm nghiệm tham chiếu):
+
+```powershell
+python -m src.models.check_optimizer
 ```
 
 EDA sinh `reports/01_eda.md` và biểu đồ; các bước sau tạo dữ liệu trong `data/processed/` cùng báo cáo/metric tương ứng trong `reports/`. Chạy một bước sau khi bước trước tạo đủ đầu vào.

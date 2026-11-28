@@ -52,7 +52,8 @@ requirements.txt
 | 3 | 2026-11-25 | TN2 NumPy MLP | 64 ReLU, dropout 0,2, tối đa 50.000 mẫu/fold | RMSE/MAE log 0,798/0,614 | 0,584 ± 0,020 / 0,389 ± 0,012 | Giữ làm đối chứng phi tuyến; yếu hơn Lasso ở validation |
 | 4 | 2026-11-25 | TN3 autoencoder + Ridge head | Biểu diễn tự học, sample tối đa 50.000/fold | RMSE/MAE log 0,650/0,490 | 0,633 ± 0,018 / 0,461 ± 0,015 | Loại khỏi ứng viên thắng |
 | 5 | 2026-11-26 | CLI dự đoán một căn nhà | Artifact Lasso hiện hành + JSON input mẫu | Smoke check mẫu: 18.824.395.878 VND | Không áp dụng | Luồng CLI chạy được; đây là giá niêm yết |
-| 6 | 2026-11-28 | Chẩn đoán FISTA trên 30.000 dòng train | So sánh power iteration/eigsh; chạy đến 2.000 vòng | 1.000 vòng đạt relative step 0,000064 trên lát train | Chưa chạy đủ CV/validation | Đề xuất nghiên cứu cấu hình 1.000 vòng; chưa thay model/artifact/test report |
+| 6 | 2026-11-28 | Chẩn đoán FISTA trên 30.000 dòng train | So sánh power iteration/eigsh; chạy đến 2.000 vòng | 1.000 vòng đạt relative step 0,000064 trên lát train | Chưa áp dụng | Sai số power iteration không đáng kể; giới hạn vòng là điểm chính |
+| 7 | 2026-11-28 | TN1 ứng viên tối đa 1.000 vòng | Đủ train, 5 expanding CV fold và validation; không đọc test | RMSE/MAE log 0,5098/0,3608; relative step 9,82e-5 | RMSE 0,5300 ± 0,0156; MAE 0,3796 ± 0,0124 | 200 vòng nhỉnh hơn nhẹ trên validation và cả 5 fold; giữ artifact 200 vòng theo generalization, công khai chưa hội tụ |
 
 ## Mẫu ghi cho mỗi thử nghiệm
 
