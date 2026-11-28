@@ -1,5 +1,7 @@
 # Bàn giao công việc cho nhóm
 
+> Cập nhật 2026-11-28: Chủ dự án tự nhận toàn bộ các hạng mục dưới đây, không chờ hai thành viên. Phần TN1 và rà soát/chạy lại pipeline đã được thực hiện; kết quả ở mục trạng thái tiếp tục.
+
 ## Trạng thái hiện tại
 
 Dự án đã có pipeline EDA, xử lý dữ liệu, chia thời gian, baseline, ba thử nghiệm, so sánh, đánh giá cuối và artifact Lasso. Mô hình thắng rubric hiện tại là Lasso NumPy tự cài; metric test và các giới hạn nằm trong `reports/10_final_test.md`.
@@ -50,7 +52,8 @@ Dự án đã có pipeline EDA, xử lý dữ liệu, chia thời gian, baseline
 - Đã so sánh FISTA giới hạn 1.000 vòng trên đủ train/CV/validation; xem `reports/12_lasso_1000_validation.md` và kết quả theo fold ở `reports/lasso_1000_results.csv`. 1.000 vòng đạt tolerance nhưng lỗi validation/CV nhỉnh hơn nhẹ; giữ artifact 200 vòng theo khả năng tổng quát hóa, ghi rõ chưa hội tụ.
 - Đã thêm đối chiếu hệ số Ridge/Lasso trên dữ liệu tổng hợp bằng sklearn làm tham chiếu: `python -m src.models.check_optimizer`.
 - Không dùng test để chọn giữa cấu hình 200 và 1.000 vòng.
-- Đã cài requirements vào `.venv` sạch; khóa scikit-learn 1.8.0 để khớp artifact. CLI mẫu chạy không có cảnh báo pickle và `hf download --help` chạy được. Chưa chạy full data pipeline sạch vì chưa tải lại dataset 1,7 GB.
+- Đã cài requirements vào `.venv` sạch; khóa scikit-learn 1.8.0 để khớp artifact. Chạy lại EDA → compare trong môi trường này với dữ liệu local; CLI mẫu chạy không cảnh báo pickle và `hf download --help` chạy được. Không chạy final test lần nữa.
+- Lần chạy sạch phát hiện báo cáo sinh bởi `prepare_houses.py` thiếu thông tin bước clipping; đã sửa generator và báo cáo Bước 2 để khớp pipeline thực.
 
 ## Thứ tự phối hợp
 

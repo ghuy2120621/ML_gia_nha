@@ -27,4 +27,6 @@
 
 ## Diễn giải
 
-Kết quả này chỉ dùng train/CV/validation để xem liệu tăng số vòng có giúp hội tụ và tổng quát hóa hay không. Nó không thay báo cáo đánh giá cuối hoặc artifact đã chấm test; không dùng test để chọn giữa hai cấu hình. Chi tiết từng fold lưu tại `reports/lasso_1000_results.csv`.
+Lasso đạt tolerance trước 1.000 vòng. Tuy vậy, cấu hình 200 vòng tốt hơn nhẹ ở validation và cả năm CV validation window (RMSE log 0,5087 so với 0,5098 trên validation; CV mean 0,5288 so với 0,5300). Điều này phù hợp với early stopping đang có tác dụng regularization. Giữ artifact 200 vòng làm kết quả đã chấm; ghi rõ đây là lựa chọn theo validation/CV, còn optimizer chưa hội tụ theo tolerance.
+
+Kết quả 1.000 vòng không thay báo cáo đánh giá cuối và không dùng metric test cũ để chọn cấu hình. Chi tiết từng fold lưu tại `reports/lasso_1000_results.csv`.

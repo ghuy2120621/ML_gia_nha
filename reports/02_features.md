@@ -42,6 +42,6 @@ Các giá trị thiếu sẽ được điền bằng trung vị (số) hoặc gi
 
 ## Pipeline tiền xử lý
 
-`src/features.py` định nghĩa `ColumnTransformer`: median imputation, clip numeric theo P0.5–P99.5, rồi `StandardScaler`; most-frequent imputation + `OneHotEncoder(handle_unknown="ignore", min_frequency=25)` cho phân loại. Các giá trị điền thiếu, ngưỡng clip, scale và nhóm category hiếm đều học từ phần fit của train/fold.
+`src/features.py` định nghĩa `ColumnTransformer`: median imputation, clip số tại percentile 0,5–99,5 rồi `StandardScaler`; most-frequent imputation + `OneHotEncoder(handle_unknown="ignore", min_frequency=25)` cho phân loại. Thống kê điền thiếu, ngưỡng clip, scale và nhóm category hiếm chỉ học từ train/fold-fit.
 
 Chưa chia train/validation/test ở bước này; sẽ thực hiện riêng tại Bước 3.

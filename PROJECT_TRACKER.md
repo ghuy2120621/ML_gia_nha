@@ -33,7 +33,7 @@ requirements.txt
 |---|---|---|---|
 | 0 | Chọn, tải và mô tả dataset | ✅ Hoàn thành | Đã tải và xác nhận đủ 10 shard Parquet, tổng 3.500.744 dòng; nguồn, giấy phép, schema và `published_at` được ghi trong `README.md`/báo cáo. King County CSV được giữ lại nhưng không dùng. |
 | 1 | EDA | ✅ Hoàn thành | Đã chạy `src/eda.py` trên 3.500.744 dòng. Báo cáo số liệu, bảng tháng và 3 biểu đồ ở `reports/01_eda.md` và `reports/figures/`. Phân tích dùng giá đăng tin, không phải giá giao dịch. |
-| 2 | Tiền xử lý và tạo đặc trưng | ✅ Hoàn thành | Chốt chỉ loại `Nhà`; còn 1.493.988 tin có giá dương/ngày hợp lệ. Đã tạo đặc trưng thời gian, lưu bảng đã sắp xếp và định nghĩa pipeline impute/scale/encode. Chưa fit transformer để tránh rò rỉ trước khi chia thời gian. |
+| 2 | Tiền xử lý và tạo đặc trưng | ✅ Hoàn thành | Chốt chỉ loại `Nhà`; còn 1.493.988 tin có giá dương/ngày hợp lệ. Đặc trưng thời gian và pipeline impute/clip/scale/encode đã được kiểm tra chạy lại trong môi trường sạch; mỗi phép fit theo fold-fit. |
 | 3 | Chia dữ liệu theo thời gian | ✅ Hoàn thành | Căn theo ngày: train 69,88% (2025-06-01–2025-12-16), validation 15,15% (2025-12-17–2026-02-08), test 14,97% (2026-02-09–2026-03-30). Đã tạo 5 expanding-window folds chỉ trong train. Tập test được giữ riêng đến bước 9. |
 | 4 | Baseline | ✅ Hoàn thành | Median và NumPy OLS trên log diện tích + thời gian; validation và 5-fold CV trong `reports/04_baseline.md`. Chưa đọc test. |
 | 5 | Thử nghiệm 1: Ridge/Lasso NumPy | ✅ Hoàn thành | FISTA trên CSR, preprocessing fit theo fold; Lasso giữ làm ứng viên theo rubric. Giới hạn 200 vòng vẫn chưa đạt tolerance; nghiệm gần đúng. |
@@ -54,6 +54,7 @@ requirements.txt
 | 5 | 2026-11-26 | CLI dự đoán một căn nhà | Artifact Lasso hiện hành + JSON input mẫu | Smoke check mẫu: 18.824.395.878 VND | Không áp dụng | Luồng CLI chạy được; đây là giá niêm yết |
 | 6 | 2026-11-28 | Chẩn đoán FISTA trên 30.000 dòng train | So sánh power iteration/eigsh; chạy đến 2.000 vòng | 1.000 vòng đạt relative step 0,000064 trên lát train | Chưa áp dụng | Sai số power iteration không đáng kể; giới hạn vòng là điểm chính |
 | 7 | 2026-11-28 | TN1 ứng viên tối đa 1.000 vòng | Đủ train, 5 expanding CV fold và validation; không đọc test | RMSE/MAE log 0,5098/0,3608; relative step 9,82e-5 | RMSE 0,5300 ± 0,0156; MAE 0,3796 ± 0,0124 | 200 vòng nhỉnh hơn nhẹ trên validation và cả 5 fold; giữ artifact 200 vòng theo generalization, công khai chưa hội tụ |
+| 8 | 2026-11-28 | Chạy lại pipeline trong `.venv` | EDA, prepare, split, baseline, TN1, MLP, hybrid, residual, compare; không chạy final test | Kết quả làm tròn khớp báo cáo; test untouched | 5 fold được tạo lại | CLI/requirements hoạt động; pin scikit-learn 1.8.0 cho artifact |
 
 ## Mẫu ghi cho mỗi thử nghiệm
 
