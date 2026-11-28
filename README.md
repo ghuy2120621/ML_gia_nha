@@ -2,6 +2,8 @@
 
 Dataset được chọn là [`tinixai/vietnam-real-estates`](https://huggingface.co/datasets/tinixai/vietnam-real-estates) trên Hugging Face. Đây là dữ liệu tin đăng, nên `price` là giá niêm yết chứ không phải giá giao dịch đã chốt. Dataset dùng giấy phép CC BY-NC 4.0; cần ghi nguồn và không dùng cho mục đích thương mại nếu chưa được cấp phép.
 
+Báo cáo tổng kết dự án: [`reports/final_project_report.md`](reports/final_project_report.md). Kế hoạch hiện được một mình chủ dự án phụ trách: [`PROJECT_PLAN.md`](PROJECT_PLAN.md).
+
 ## Cài đặt và tải dữ liệu
 
 Artifact pickle được tạo bằng scikit-learn 1.8.0; phiên bản này được khóa trong `requirements.txt` để tránh cảnh báo/khác biệt khi nạp pipeline. Các thư viện còn lại chưa khóa phiên bản. Môi trường ban đầu: Python 3.12.9, NumPy 2.4.4, pandas 3.0.4, SciPy 1.17.1, PyArrow 26.0.1 và Matplotlib 3.10.8.

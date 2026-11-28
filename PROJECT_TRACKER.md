@@ -6,8 +6,8 @@
 - **Dataset đã chọn:** [tinixai/vietnam-real-estates](https://huggingface.co/datasets/tinixai/vietnam-real-estates), Parquet, 3.500.744 tin đăng; giấy phép CC BY-NC 4.0.
 - **Diễn giải mục tiêu:** `price` là giá niêm yết trong tin, không phải giá giao dịch đã chốt; `published_at` là ngày đăng tin.
 - **Ràng buộc:** Mô hình cuối do dự án tự xây dựng và huấn luyện; chia dữ liệu theo thời gian; chỉ fit tiền xử lý trên train; chỉ đánh giá test một lần ở cuối; cố định random seed.
-- **Trạng thái tổng thể:** Nghiên cứu ban đầu và CLI đã hoàn thành; đang theo dõi một ứng viên Lasso hội tụ kỹ hơn, chưa thay artifact.
-- **Cập nhật gần nhất:** 2026-11-28 — bổ sung CLI/tài liệu; chẩn đoán FISTA trên lát train, chưa đổi artifact.
+- **Trạng thái tổng thể:** Nghiên cứu, CLI, chạy lại môi trường sạch và báo cáo tổng kết đã hoàn thành; việc tiếp theo cần dữ liệu mới theo thời gian.
+- **Cập nhật gần nhất:** 2026-11-28 — gộp kế hoạch về một người phụ trách và tạo báo cáo tổng kết.
 
 ## Cấu trúc thư mục
 
@@ -22,7 +22,8 @@ reports/
 examples/                # JSON input mẫu cho CLI dự đoán
 models/                  # Artifact Lasso + preprocessing
 PROJECT_TRACKER.md
-TEAM_TASKS.md
+PROJECT_PLAN.md
+reports/final_project_report.md
 README.md
 requirements.txt
 ```
@@ -41,7 +42,7 @@ requirements.txt
 | 7 | Thử nghiệm 3: mô hình nâng cao | ✅ Hoàn thành | Autoencoder NumPy + Ridge head; kém Lasso trên validation/CV; xem `reports/07_exp3_hybrid.md`. |
 | 8 | So sánh và chọn mô hình | ✅ Hoàn thành | Rubric trọng số chọn Lasso (4,35/5); xem `reports/09_model_comparison.md`. Test chưa dùng ở bước chọn. |
 | 9 | Đánh giá cuối | ✅ Hoàn thành | Đánh giá test một lần; báo cáo metric, phần dư theo tháng/nhóm giá và hệ số ở `reports/10_final_test.md`. |
-| 10 | Đóng gói và báo cáo | ✅ Hoàn thành | Pipeline và Lasso tự cài ở `models/vietnam_house_lasso.pkl`; hướng dẫn chạy ở README. Demo Streamlit/Gradio được bỏ qua vì là tùy chọn. |
+| 10 | Đóng gói và báo cáo | ✅ Hoàn thành | Pipeline và Lasso tự cài ở `models/vietnam_house_lasso.pkl`; CLI dự đoán, README và `reports/final_project_report.md`. Demo web/Docker được bỏ qua vì tùy chọn. |
 
 ## Nhật ký thử nghiệm
 
