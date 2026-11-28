@@ -6,8 +6,8 @@
 - **Dataset đã chọn:** [tinixai/vietnam-real-estates](https://huggingface.co/datasets/tinixai/vietnam-real-estates), Parquet, 3.500.744 tin đăng; giấy phép CC BY-NC 4.0.
 - **Diễn giải mục tiêu:** `price` là giá niêm yết trong tin, không phải giá giao dịch đã chốt; `published_at` là ngày đăng tin.
 - **Ràng buộc:** Mô hình cuối do dự án tự xây dựng và huấn luyện; chia dữ liệu theo thời gian; chỉ fit tiền xử lý trên train; chỉ đánh giá test một lần ở cuối; cố định random seed.
-- **Trạng thái tổng thể:** Nghiên cứu, CLI, chạy lại môi trường sạch và báo cáo tổng kết đã hoàn thành; việc tiếp theo cần dữ liệu mới theo thời gian.
-- **Cập nhật gần nhất:** 2026-11-28 — gộp kế hoạch về một người phụ trách và tạo báo cáo tổng kết.
+- **Trạng thái tổng thể:** Nghiên cứu ban đầu và CLI hoàn thành; tinh chỉnh khám phá tìm ứng viên mới nhưng chưa hội tụ/độc lập, artifact cũ vẫn giữ.
+- **Cập nhật gần nhất:** 2026-11-28 — mở rộng alpha/đường học trên CV-validation; không dùng lại test.
 
 ## Cấu trúc thư mục
 
@@ -56,6 +56,10 @@ requirements.txt
 | 6 | 2026-11-28 | Chẩn đoán FISTA trên 30.000 dòng train | So sánh power iteration/eigsh; chạy đến 2.000 vòng | 1.000 vòng đạt relative step 0,000064 trên lát train | Chưa áp dụng | Sai số power iteration không đáng kể; giới hạn vòng là điểm chính |
 | 7 | 2026-11-28 | TN1 ứng viên tối đa 1.000 vòng | Đủ train, 5 expanding CV fold và validation; không đọc test | RMSE/MAE log 0,5098/0,3608; relative step 9,82e-5 | RMSE 0,5300 ± 0,0156; MAE 0,3796 ± 0,0124 | 200 vòng nhỉnh hơn nhẹ trên validation và cả 5 fold; giữ artifact 200 vòng theo generalization, công khai chưa hội tụ |
 | 8 | 2026-11-28 | Chạy lại pipeline trong `.venv` | EDA, prepare, split, baseline, TN1, MLP, hybrid, residual, compare; không chạy final test | Kết quả làm tròn khớp báo cáo; test untouched | 5 fold được tạo lại | CLI/requirements hoạt động; pin scikit-learn 1.8.0 cho artifact |
+| 9 | 2026-11-28 | Lưới alpha Lasso | Alpha 0,0001–0,01; 200 vòng; train/CV/validation | Alpha 0,0001: RMSE/MAE log 0,4806/0,3420 | RMSE/MAE 0,4997 ± 0,0161 / 0,3576 ± 0,0112 | Cải thiện rõ so alpha 0,001; tiếp tục đường học, chưa thay artifact/test |
+| 10 | 2026-11-28 | Đường học alpha 0,0001 | 50–1.000 vòng trên 5 fold + validation | 500 vòng: RMSE/MAE log 0,4785/0,3404 | RMSE/MAE 0,4979 ± 0,0159 / 0,3561 ± 0,0111 | Ứng viên mới; relative step 0,00095 còn trên tolerance, cần holdout mới |
+| 11 | 2026-11-28 | Tinh chỉnh alpha thấp | Alpha 0,00001–0,001; 200 vòng, train/CV/validation | Alpha 1e-5: RMSE/MAE log 0,4775/0,3402 | RMSE/MAE 0,4965 ± 0,0160 / 0,3557 ± 0,0111 | Tốt nhất trong lưới; vẫn chọn ở biên thấp, kiểm tra thêm đường học |
+| 12 | 2026-11-28 | Đường học alpha 1e-5 | 50–1.000 vòng trên 5 fold + validation | 1.000 vòng: RMSE/MAE log 0,4722/0,3364 | RMSE/MAE 0,4916 ± 0,0157 / 0,3518 ± 0,0109 | Còn cải thiện ở biên 1.000; relative step 0,000308 > tolerance; không thay artifact/test |
 
 ## Mẫu ghi cho mỗi thử nghiệm
 

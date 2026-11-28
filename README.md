@@ -33,6 +33,16 @@ python -m src.analyze_validation_residuals
 python -m src.compare_models
 ```
 
+Các lệnh nghiên cứu TN1 bổ sung (mất vài phút mỗi lệnh, chỉ dùng train/CV/validation):
+
+```powershell
+python -m src.models.lasso_alpha_sweep
+python -m src.models.lasso_alpha_sweep --alphas 0.00001 0.00003 0.0001 0.0003 0.001
+python -m src.models.lasso_iteration_sweep --alpha 0.00001
+```
+
+Lệnh đầu chạy lưới thô, lệnh hai tinh chỉnh vùng alpha thấp, lệnh ba đo đường học. Chúng tạo các báo cáo trong `reports/14_...md`, `reports/16_...md` và `reports/15_lasso_iteration_alpha_1e-05.md`. Kết quả là ứng viên nghiên cứu, không sửa artifact/test report cuối.
+
 Đối chiếu optimizer TN1 trên bài toán tổng hợp nhỏ (sklearn chỉ làm nghiệm tham chiếu):
 
 ```powershell

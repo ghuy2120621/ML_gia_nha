@@ -43,6 +43,16 @@ Các RMSE/MAE trong bảng dưới là trên `log1p(price)`; CV là mean ± std 
 
 Rubric trọng số cho Lasso 4,35/5. Điểm là xếp hạng tương đối giữa sáu ứng viên, không phải độ tin cậy tuyệt đối.
 
+### Tinh chỉnh train/CV/validation sau đánh giá ban đầu
+
+Sau khi khóa và đánh giá cấu hình ban đầu, đã chạy thêm lưới alpha và đường học; các kết quả này **không dùng test** và chưa thay artifact đã đánh giá:
+
+- Lưới alpha tinh chỉnh chọn 0,00001 ở 200 vòng: CV RMSE/MAE log 0,4965 ± 0,0160 / 0,3557 ± 0,0111; validation 0,4775 / 0,3402.
+- Đường học alpha 0,00001 tiếp tục cải thiện đến mốc khảo sát 1.000 vòng: CV RMSE/MAE log 0,4916 ± 0,0157 / 0,3518 ± 0,0109; validation 0,4722 / 0,3364.
+- Relative step CV lớn nhất ở 1.000 vòng là 0,000308, cao hơn tolerance 0,0001; metric vẫn cải thiện ở biên cuối của lưới. Đây là ứng viên nghiên cứu, chưa hội tụ và chưa có holdout độc lập. Việc chọn alpha/vòng lặp tuần tự trên cùng CV có thể lạc quan.
+
+Vì vậy, các số liệu test bên dưới chỉ thuộc artifact cũ alpha 0,001/200 vòng. Artifact và CLI hiện vẫn dùng cấu hình đó; không được gán test score cũ cho ứng viên alpha 0,00001/1.000 vòng.
+
 ### Kiểm tra hội tụ TN1
 
 Lasso 200 vòng có relative step khoảng 0,00348, cao hơn tolerance 0,0001. Ứng viên tối đa 1.000 vòng đã chạy đủ train/CV/validation và đạt tolerance (validation RMSE/MAE log 0,5098/0,3608; CV 0,5300 ± 0,0156 / 0,3796 ± 0,0124). Cấu hình 200 vòng có lỗi thấp hơn nhẹ trên validation và cả năm CV validation window, nên artifact/test report hiện hành vẫn dùng cấu hình 200 vòng. Chi tiết ở `reports/12_lasso_1000_validation.md`.
@@ -81,8 +91,9 @@ python -m src.predict_house examples/house_input.json
 
 - Dataset chỉ bao phủ khoảng 10 tháng và là tin rao; kết quả không chứng minh khả năng dự báo chu kỳ dài hoặc giá giao dịch.
 - Lasso 200 vòng cho khả năng tổng quát hóa hơi tốt hơn trong các cửa sổ đã đo nhưng chưa hội tụ theo tolerance; đây là đánh đổi giữa early stopping và nghiệm tối ưu.
+- Sweep sau đó tìm thấy ứng viên alpha 0,00001/1.000 vòng tốt hơn trên CV/validation nhưng vẫn cải thiện ở lưới cuối và chưa hội tụ; chưa thay mô hình đã lưu.
 - MLP/autoencoder dùng sample giới hạn; TN3 còn bỏ một phần đặc trưng vị trí nên không so sánh hoàn toàn cùng bộ đầu vào.
-- Công việc có giá trị tiếp theo là thu thập thêm dữ liệu theo thời gian, thiết kế holdout tương lai mới trước khi huấn luyện/chọn mô hình, rồi đánh giá ứng viên mới trên holdout đó đúng một lần.
+- Công việc tiếp theo là thu thập thêm dữ liệu theo thời gian, khóa quy trình chọn mô hình bằng train/CV/validation, rồi đánh giá ứng viên alpha 0,0001/500 vòng trên holdout tương lai mới đúng một lần.
 - Docker và giao diện web không cần cho bản nghiên cứu/CLI hiện tại.
 
 ## Tệp liên quan
